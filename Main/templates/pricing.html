@@ -1,0 +1,175 @@
+{% extends "layout.html" %}
+{% block nav %}
+
+<li role="presentation"><a href="{{ url_for('homepage') }}">About Us</a></li>
+<li role="presentation"><a href="{{ url_for('homepage') }}">Questions</a></li>
+<li role="presentation"><a href="{{ url_for('forms') }}">Forms</a></li>
+<li role="presentation" class="active"><a href="{{ url_for('pricing') }}">Pricing</a></li>
+<li role="presentation"><a href="{{ url_for('homepage') }}">Contact</a></li>
+
+{% endblock %}
+{% block content %}
+
+<!-- Start of pricing -->
+	<div class="container">
+		<div class="row">
+			<div class="service">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="text-center">
+						<h2>Pricing</h2>
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="services">
+		<div class="container">
+			<div class="row" style="width: 100%">
+
+				<div class="col-md-3">
+					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
+						<h4>Intake</h4>
+							<div class="icon">
+								<i class="fa fa-clipboard fa-3x"></i>
+							</div>
+						<p>$300 (one session)</p>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
+						<h4>Individual Counseling</h4>
+						<div class="icon">
+							<i class="fa fa-user fa-3x"></i>
+						</div>
+						<p>$150/session</p>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
+						<h4>Couples Counseling</h4>
+						<div class="icon">
+							<i class="fa fa-users fa-3x"></i>
+						</div>
+						<p>$200/session</p>
+					</div>
+        </div>
+
+				<div class="col-md-3">
+					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="2.2s">
+						<h4>DWI Screening & Assessment</h4>
+						<div class="icon">
+							<i class="fa fa-gavel fa-3x"></i>
+						</div>
+					 <p>*Includes Lab Work<br>$400</p>
+					</div>
+				</div>
+
+      </div>
+    </div>
+  </div>
+<!-- End of pricing -->
+
+<!-- Start of payment forms -->
+  <div class="container">
+		<div class="row">
+			<div class="service">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="text-center">
+						<h2>Payment Forms Accepted</h2>
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="services">
+		<div class="container">
+			<div class="row">
+          <div class="col-md-2">
+            <div>
+              <h4>Cash</h4>
+              <div class="icon">
+                <i class="fa fa-money fa-3x"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div>
+              <h4>Check</h4>
+              <div class="icon">
+                <i class="fa fa-usd fa-3x"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div>
+              <h4>Credit Card</h4>
+              <div class="icon">
+                <i class="fa fa-credit-card fa-3x"></i>
+              </div>
+              <p>American Express<br>Discover<br>MasterCard<br>Visa</p>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div>
+              <h4>Blue Cross</h4>
+              <div class="icon">
+                <i class="fa fa-user-md fa-3x"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div>
+              <h4>Magnacare</h4>
+              <div class="icon">
+                <i class="fa fa-user-md fa-3x"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div>
+              <h4>Tricare</h4>
+              <div class="icon">
+                <i class="fa fa-user-md fa-3x"></i>
+              </div>
+            </div>
+          </div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- End of payment forms -->
+
+	<footer>
+		<div class="inner-footer">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4 f-about">
+					</div>
+
+					<div class="col-md-4 l-posts">
+					</div>
+
+					<div class="col-md-4 f-contact">
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+{% endblock %}

@@ -1,0 +1,75 @@
+{% extends "layout.html" %}
+{% block nav %}
+
+<li role="presentation"><a href="{{ url_for('homepage') }}">About Us</a></li>
+<li role="presentation"><a href="{{ url_for('homepage') }}">Questions</a></li>
+<li role="presentation"  class="active"><a href="{{ url_for('forms') }}">Forms</a></li>
+<li role="presentation"><a href="{{ url_for('pricing') }}">Pricing</a></li>
+<li role="presentation"><a href="{{ url_for('homepage') }}">Contact</a></li>
+
+{% endblock %}
+{% block content %}
+
+<!-- Start of payment forms -->
+<div class="services>"
+  <div class="container">
+		<div class="row">
+			<div class="service">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="text-center">
+						<h2>Forms</h2>
+            <p>Please bring signed, completed forms to your first appointment</p>
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="services">
+  		<div class="container">
+  			<div class="row">
+
+          <div style="display:flex; width:90%; display:inline-block">
+              <iframe src="static/forms/Intake.pdf" width=45% height=650></iframe>
+              <iframe src="static/forms/Authorization.pdf"
+              width=45% height=650></iframe>
+            </div>
+
+        </div>
+			</div>
+		</div>
+
+    <div class="services">
+        <div class="container">
+          <div class="row">
+
+            <div style="display:flex; width:90%; display:inline-block">
+              <iframe
+              src="static/forms/Confidentiality_and_cancellation_policy.pdf"
+              width=45% height=650></iframe>
+              <iframe src="static/forms/ACE_questionnaire.pdf"
+              width=45% height=650></iframe>
+            </div>
+
+				</div>
+			</div>
+		</div>
+
+    <div class="services">
+        <div class="container">
+          <div class="row">
+
+            <div style="display:flex; width:90%; display:inline-block">
+              <iframe src="static/forms/PCL.pdf" width=45% height=650></iframe>
+              <iframe src="static/forms/Trauma_recovery_scale.pdf"
+              width=45% height=650></iframe>
+            </div>
+
+				</div>
+			</div>
+		</div>
+
+<!-- End of payment forms -->
+
+{% endblock %}
