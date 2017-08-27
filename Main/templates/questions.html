@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+{% block nav %}
+<li role="presentation"><a href="{{ url_for('aboutus') }}">About Us</a></li>
+<li role="presentation" class="active"><a href="{{ url_for('questions') }}">Questions</a></li>
+<li role="presentation"><a href="{{ url_for('forms') }}">Forms</a></li>
+<li role="presentation"><a href="{{ url_for('pricing') }}">Pricing</a></li>
+<li role="presentation"><a href="{{ url_for('contact') }}">Contact</a></li>
+{% endblock %}
+{% block content %}
+	<div class="container">
+			<div class="slider">
+				<div class="img-responsive">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center">
+					<h2>Frequently Asked Questions</h2>
+					<div class="text-left">
+						<p><b>Q: How many appointments will I need?</b><br>
+						A: It can be quite difficult when beginning counseling to project exactly how many, or how few, sessions you may require. We usually recommend that we start with 6 - 1 hour sessions weekly. At the end of Session 5 we can jointly assess progress and decide what further action, if any, may be needed.</p>
+						<p><b>Q: How long is each appointment?</b><br>
+						A: Appointments are usually an hour or an hour and a half long, if you prefer, and available during the day, evenings, and on weekends.</p>
+						<p><b>Q: How do I begin?</b><br>
+						A: To arrange an initial appointment please e-mail us at any time, telephone or text us any day of the week, 8am-8pm.</p>
+						<p><b>Q: Do you accept a diverse clientele?</b><br>
+						A:Behavioral Health Integrative Services counselors do not condone or engage in any discrimination based on age, color, culture, disability, ethnic group, gender, race, religion, sexual orientation, marital status or socioeconomic status. Our counselors will actively attempt to understand the diverse cultural backgrounds of the clients with whom we work. This includes learning how our own cultural/ethical/racial/religious identity impacts our own values and beliefs about the counseling process. When there is a conflict between the client’s goals, identity and/or values and those of the mental health counselor, a referral to an appropriate colleague will be arranged.</p>
+						<p><b>Q: Will my treatment be confidential?</b><br>
+						A: As mental health counselors, we have a primary obligation to safeguard information about individuals obtained in the course of practice, teaching, or research. Personal information is communicated to others only with the person’s written consent or in those circumstances where there is clear and imminent danger to the client, to others or to society. Disclosure of counseling information is restricted to what is necessary, relevant and verifiable.
+						<ol type="i">
+							<li style="color:#8a8d94; font-size:15px;">At the outset of any counseling relationship, our mental health counselors make their clients aware of their rights in regard to the confidential nature of the counseling relationship. They fully disclose the limits of, or exceptions to, confidentiality, and/or the existence of privileged communication, if any.</li>
+							<li style="color:#8a8d94; font-size:15px;">All materials in the official record shall be shared with the client, who shall have the right to decide what information may be shared with anyone beyond the immediate provider of service and be informed of the implications of the materials to be shared.</li>
+							<li style="color:#8a8d94; font-size:15px;">Confidentiality belongs to the clients. They may direct the mental health counselor, in writing, to release information to others. The release of information without the consent of the client may only take place under the most extreme circumstances. The protection of life, as in the case of suicidal or homicidal clients, exceeds the requirements of confidentiality. The protection of a child, an elderly person, or a person not competent to care for themselves from physical or sexual abuse or neglect requires that a report be made to a legally constituted authority. The mental health counselor complies with all state and federal statutes concerning mandated reporting of suicidality, homicidality, child abuse, incompetent person abuse and elder abuse. The protection of the public or another individual from a contagious condition known to be fatal also requires action that may include reporting the willful infection of another with the condition. The mental health counselor (or staff member) does not release information by request unless accompanied by a specific release of information or a valid court order. Mental health counselors will comply with the order of a court to release information but they will inform the client of the receipt of such an order. A subpoena is insufficient to release information. In such a case, the counselor must inform his client of the situation and, if the client refuses release, coordinate between the client’s attorney and the requesting attorney so as to protect client between the client’s attorney and the requesting attorney so as to protect client confidentiality and one’s own legal welfare.
+
+							In the case of all of the above exceptions to confidentiality, the mental health counselor will release only such information as is necessary to accomplish the action required by the exception.</li>
+							<li style="color:#8a8d94; font-size:15px;">The anonymity of clients served in public and other agencies is preserved, if at all possible, by withholding names and personal identifying data. If external conditions require reporting such information, the client shall be so informed.</li>
+							<li style="color:#8a8d94; font-size:15px;">Information received in confidence by one agency or person shall not be forwarded to another person or agency without the client’s written permission.</li>
+							<li style="color:#8a8d94; font-size:15px;">As service providers, we have the responsibility to ensure the accuracy and to indicate the validity of data shared with their parties.</li>
+							<li style="color:#8a8d94; font-size:15px;">Case reports presented in classes, professional meetings, or publications shall be so disguised that no identification is possible unless the client or responsible authority has read the report and agreed in writing to its presentation or publication.</li>
+							<li style="color:#8a8d94; font-size:15px;">Counseling reports and records are maintained under conditions of security, and provisions are made for their destruction when they have outlived their usefulness. Mental health counselors ensure that all persons in his or her employ, volunteers, and community aides maintain privacy and confidentiality.</li>
+							<li style="color:#8a8d94; font-size:15px;">Mental health counselors who ask that an individual reveal personal information in the course of interviewing, testing or evaluation, or who allow such information to be divulged, do so only after making certain that the person or authorized representative is fully aware of the purposes of the interview, testing or evaluation, and of the ways in which the information will be used.</li>
+							<li style="color:#8a8d94; font-size:15px;">Sessions with clients may be taped or otherwise recorded only with their written permission or the written permission of a responsible guardian. Even with a guardian’s written consent, we do not record a session against the expressed wishes of a client. Such tapes shall be destroyed when they have outlived their usefulness.</li>
+							<li style="color:#8a8d94; font-size:15px;">Where a child or adolescent is the primary client, or the client is not competent to give consent, the interests of the minor or the incompetent client shall be paramount. Where appropriate, a parent(s) or guardian(s) may be included in the counseling process. Our mental health counselor will still take measures to safeguard the client’s confidentiality.</li>
+							<li style="color:#8a8d94; font-size:15px;">In work with families, the rights of each family member will be safeguarded. We also have the responsibility to discuss the contents of the record with the parent and/or child, as appropriate, and to keep separate those parts, which should remain the property of each family member.</li>
+							<li style="color:#8a8d94; font-size:15px;">In work with groups, the rights of each group member will be safeguarded. We also have the responsibility to discuss the need for each member to respect the confidentiality of each other member of the group. We must also remind the group of the limits on and risk to confidentiality inherent in the group process.</li>
+							<li style="color:#8a8d94; font-size:15px;">When using a computer to store confidential information, our mental health counselors take measures to control access to such information. When such information has outlived its usefulness, it should be deleted from the system.</li>
+						</ol>
+					</p>
+					</div>
+				</div>
+				<hr>
+			</div>
+
+		</div>
+	</div>
+
+  {% endblock %}
+	<footer>
+		<div class="inner-footer">
+			<div class="container">
+				<div class="row">
+            {% block footer %}
+          {% endblock %}
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 {% block nav %}
 
-<li role="presentation"><a href="{{ url_for('homepage') }}">About Us</a></li>
-<li role="presentation"><a href="{{ url_for('homepage') }}">Questions</a></li>
+<li role="presentation"><a href="{{ url_for('aboutus') }}">About Us</a></li>
+<li role="presentation"><a href="{{ url_for('questions') }}">Questions</a></li>
 <li role="presentation"  class="active"><a href="{{ url_for('forms') }}">Forms</a></li>
 <li role="presentation"><a href="{{ url_for('pricing') }}">Pricing</a></li>
-<li role="presentation"><a href="{{ url_for('homepage') }}">Contact</a></li>
+<li role="presentation"><a href="{{ url_for('contact') }}">Contact</a></li>
 
 {% endblock %}
 {% block content %}
