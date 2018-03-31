@@ -31,3 +31,7 @@ From within the top level directory of the repo:
      * Debugger is active!
      * Debugger pin code: 172-543-413
  ```
+
+ ## Deployment
+ $ cd Main
+ $ eb deploy bhis

@@ -1,44 +1,56 @@
+import os
+
 from flask import Flask, render_template
-from ses_mailer import Mail
+from flask_mail import Mail, Message
 
 application = Flask(__name__)
 
-mail = Mail(aws_access_key_id="",
-            aws_secret_access_key="",
-            region="us-east-1d",
-            sender="website@contactform.com",
-            reply_to="alyse.dunn@gmail.com",
-            template="/contact")
-mail.init_app(application)
+application.config['MAIL_SERVER'] = 'smtp.gmail.com'
+application.config['MAIL_PORT'] = 465
+application.config['MAIL_USERNAME'] = os.environ['MAIL_USERNAME']
+application.config['MAIL_PASSWORD'] = os.environ['MAIL_PASSWORD']
+application.config['MAIL_USE_TLS'] = False
+application.config['MAIL_USE_SSL'] = True
+
+mail = Mail(application)
+
+msg = Message(
+    'Hello', sender='bhistest@gmail.com', recipients=['alyse.dunn@gmail.com'])
+msg.body = "This is the email body"
+
 
 @application.route('/')
-def homepage ():
+def homepage():
     return render_template('index.html')
 
+
 @application.route('/aboutus', methods=['GET', 'POST'])
-def aboutus ():
+def aboutus():
     return render_template('aboutus.html')
 
+
 @application.route('/questions', methods=['GET', 'POST'])
-def questions ():
+def questions():
     return render_template('questions.html')
 
+
 @application.route('/forms', methods=['GET', 'POST'])
-def forms ():
+def forms():
     return render_template('forms.html')
 
+
 @application.route('/pricing', methods=['GET', 'POST'])
-def pricing ():
+def pricing():
     return render_template('pricing.html')
 
+
 @application.route('/contact', methods=['GET', 'POST'])
-def contact ():
-    mail.send(to="alyse.dunn@gmail.com",
-            #   source="website@contactform.com",
-              subject="BHIS test subject",
-              body="BHIS test body")
+def contact():
+    mail.send(msg)
+    print str(msg)
     return render_template('contact.html')
 
+
 if __name__ == "__main__":
-    application.debug = False
+    application.debug = True
     application.run()
