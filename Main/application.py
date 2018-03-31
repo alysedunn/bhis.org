@@ -14,10 +14,6 @@ application.config['MAIL_USE_SSL'] = True
 
 mail = Mail(application)
 
-msg = Message(
-    'Hello', sender='BHIS', recipients=[application.config['MAIL_USERNAME']])
-msg.body = "This is the email body"
-
 
 @application.route('/')
 def homepage():
@@ -46,9 +42,20 @@ def pricing():
 
 @application.route('/contact', methods=['GET', 'POST'])
 def contact():
-    # name = request.form['username']
+    contact_form_name = request.form.get('name')
+    contact_form_email = request.form.get('email')
+    contact_form_subject = request.form.get('subject')
+    contact_form_message = request.form.get('message')
+    msg = Message(
+        contact_form_subject, sender='BHIS.org',
+        recipients=[application.config['MAIL_USERNAME']])
+    msg.body = (
+        "***Email received from Behavioralhealthis.org contact form***\n\n" +
+        "Sender Name:   " + contact_form_name + "\n\n" +
+        "Message Body:\n" +
+        contact_form_message
+        )
     mail.send(msg)
-    # print str(name)
     return render_template('contact.html')
 
 
