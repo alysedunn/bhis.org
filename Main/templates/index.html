@@ -4,9 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Behavioral Health Integrative Services</title>
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Versa - Multipurpose</title>
 
+        <!-- Bootstrap -->
         <link href="static/versa_html/css/plugins/plugins.css" rel="stylesheet">
+        <link href="static/versa_html/plugins/masterslider/style/masterslider.css" rel="stylesheet">
         <!--dz parallaxer-->
         <link href="static/versa_html/plugins/dzsparallaxer/dzsparallaxer.css" rel="stylesheet">
         <link href="static/versa_html/plugins/dzsparallaxer/scroller.css" rel="stylesheet">
@@ -18,236 +21,335 @@
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-          <script src="static/versa_html/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="static/versa_html/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light navbar-transparent navbar-sticky">
-            <a class="navbar-brand" href="static/versa_html/index.html">
-                <img src="static/versa_html/images/logo-light.png" alt="" class="logo-visible-desktop logo-default">
-                <img src="static/versa_html/images/logo.png" alt="" class="logo-hidden-desktop logo-scroll">
-            </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-faded" style="height: 12%;">
+            <a class="navbar-brand" href="{{ url_for('homepage') }}"><img src="/static/img/bh_logo_shadow_head_only.jpg" alt="" style="height: 150px;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                 <ul class="navbar-nav  ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" data-toggle="dropdown" href="static/versa_html/#">About Us</a>
+                <ul class="navbar-nav  ml-auto navbar-right-col">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('aboutus') }}">About Us</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" data-toggle="dropdown" href="static/versa_html/#">Forms</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('pricing') }}">Pricing</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" data-toggle="dropdown" href="static/versa_html/#">Pricing</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('questions') }}">Questions</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" data-toggle="dropdown" href="static/versa_html/#">Sign into my Video Office</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.digitalintakes.com/login_after_receiving_forms?id=42631">Forms</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" data-toggle="dropdown" href="static/versa_html/#">Book Now</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://doxy.me/Martha1">Sign into my Video Office</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" data-toggle="dropdown" href="static/versa_html/#">Questions</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" data-toggle="dropdown" href="static/versa_html/#">Contact</a>
+                    <li class="nav-item">
+                        <a target="_blank" href="https://calendly.com/martha-alvarez4" class="btn btn-primary btn-lg">Book Now</a>
                     </li>
                 </ul>
             </div>
         </nav><!--/footer-->
-        <section class="dzsparallaxer auto-init dzsparallaxer---window-height use-loading" style="position: relative; height: 800px;" data-options='{  mode_scroll: "normal" }'>
-            <div class="divimage dzsparallaxer--target " data-src="static/img/hands.jpeg" style="width: 100%; height: 130%; background-image: url()">
-                <div class="content-table">
-                    <div class="content-middle pt80 ">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10 col-lg-10 ml-auto mr-auto text-center">
-                                    <span class='typed'></span>
-                                    <p class="lead text-white mb20 text-muted">
-                                        Counseling and Psychotherapy
-                                    </p>
-                                    <div class="circle-button">
-                                        <a href="https://calendly.com/martha-alvarez4" class="btn btn-light btn-xl btn-rounded">
-                                            Book Now!
-                                        </a>
-                                    </div>
-                                </div>
+        <section class="overflow-hiden">
+            <!-- MasterSlider -->
+            <div id="P_masterslider" class="master-slider-parent fs-slider ms-parent-id-39" >
+                <!-- MasterSlider Main -->
+                <div id="masterslider" class="master-slider ms-skin-default" >
+                    <div class="ms-overlay-layers">
+                        <img class="ms-layer msp-cn-121-23"
+                             src="static/versa_html/plugins/masterslider/images/blank.gif"
+                             data-src="static/versa_html/plugins/masterslider/images/mouse-scroll-b-icon.png"
+                             alt=""
+                             style=""
+                             data-duration="512"
+                             data-ease="easeOutQuint"
+                             data-type="image"
+                             data-action="scrollToEnd"
+                             data-offset-x="0"
+                             data-offset-y="20"
+                             data-origin="bc"
+                             data-position="normal" />
+                        <img class="ms-layer ms-wheel-icon msp-cn-121-17"
+                             src="static/versa_html/plugins/masterslider/images/blank.gif"
+                             data-src="static/versa_html/plugins/masterslider/images/mouse-scroll-w-icon.png"
+                             alt=""
+                             style=""
+                             data-duration="512"
+                             data-ease="easeOutQuint"
+                             data-type="image"
+                             data-action="scrollToEnd"
+                             data-offset-x="0"
+                             data-offset-y="20"
+                             data-origin="bc"
+                             data-position="normal" />
+                    </div>
+                    <div class="ms-slide fullwidth-layers" data-delay="7.5" data-fill-mode="fill" >
+                        <img src="static/versa_html/plugins/masterslider/images/blank.gif" alt="" title="" data-src="static/versa_html/plugins/masterslider/images/mscrtvi-background-slide-1.jpg" />
+                        <div class="ms-layer font-title-55 msp-cn-121-16"
+                             style=""
+                             data-effect="t(true,n,-30,n,-25,n,n,n,2,2,n,n,n,n,n)"
+                             data-duration="2500"
+                             data-delay="1000"
+                             data-ease="easeOutQuint"
+                             data-parallax="3"
+                             data-offset-x="0"
+                             data-offset-y="2"
+                             data-origin="mc"
+                             data-position="normal" >Individual Counseling</div>
+                        <div class="ms-layer font-desc-24 msp-cn-121-18"
+                             style=""
+                             data-effect="t(true,n,30,n,-15,n,n,n,2,2,n,n,n,n,n)"
+                             data-duration="2500"
+                             data-delay="1400"
+                             data-ease="easeOutQuint"
+                             data-parallax="2"
+                             data-offset-x="0"
+                             data-offset-y="59"
+                             data-origin="mc"
+                             data-position="normal" >Confidential. Affordable. Effective.</div>
+                        <a href="https://calendly.com/martha-alvarez4"
+                           target="_self"
+                           class="ms-layer msp-cn-121-21 ms-btn ms-btn-circle ms-btn-n msp-preset-btn-172"
+                           data-delay="3000"
+                           data-ease="easeOutQuint"
+                           data-parallax="1"
+                           data-type="button"
+                           data-offset-x="0"
+                           data-offset-y="115"
+                           data-origin="mc"
+                           data-position="normal" >Book Now</a>
+                    </div>
+                    <div class="ms-slide" data-delay="7.5" data-fill-mode="fill" >
+                        <img src="static/versa_html/plugins/masterslider/images/blank.gif" alt="" title="" data-src="static/versa_html/plugins/masterslider/images/mountain.jpeg" />
+                        <div class="ms-layer msp-cn-121-7"
+                             style=""
+                             data-effect="t(true,n,n,n,-40,n,n,n,n,n,n,n,-20,n,n)"
+                             data-duration="3000"
+                             data-delay="200"
+                             data-ease="easeOutQuint"
+                             data-hide-effect="t(true,n,-100,n,n,n,n,n,n,n,n,n,n,n,n)"
+                             data-hide-duration="1500"
+                             data-hide-ease="easeInQuint"
+                             data-hide-time="5100"
+                             data-offset-x="0"
+                             data-offset-y="-140"
+                             data-origin="mc"
+                             data-position="normal" >Couples Counseling</div>
+                        <div class="ms-layer msp-cn-121-6"
+                             style=""
+                             data-effect="t(true,n,n,n,-40,n,n,n,n,n,n,n,110,n,n)"
+                             data-duration="3000"
+                             data-delay="400"
+                             data-ease="easeOutQuint"
+                             data-hide-effect="t(true,n,-100,n,n,n,n,n,n,n,n,n,n,n,n)"
+                             data-hide-duration="1500"
+                             data-hide-ease="easeInQuint"
+                             data-hide-time="5450"
+                             data-offset-x="0"
+                             data-offset-y="-69"
+                             data-origin="mc"
+                             data-position="normal" >Come Together. Stay Together.</div>
+                        <a href=""
+                           target="_self"
+                           class="ms-layer ms-btn ms-btn-circle ms-btn-n msp-preset-btn-132"
+                           data-duration="1812"
+                           data-delay="2162"
+                           data-ease="easeOutQuint"
+                           data-hide-effect="fade"
+                           data-hide-duration="1675"
+                           data-hide-ease="easeOutQuint"
+                           data-hide-time="6136"
+                           data-type="button"
+                           data-offset-x="0"
+                           data-offset-y="-6"
+                           data-origin="mc"
+                           data-position="normal" >Book Now</a>
+                    </div>
+                    <div class="ms-slide" data-delay="8.2" data-fill-mode="fill" >
+                        <img src="static/versa_html/plugins/masterslider/images/blank.gif" alt="" title="" data-src="static/versa_html/plugins/masterslider/images/mscrtvi-background-slide-2.jpg" />
+                        <div class="ms-layer msp-cn-121-11"
+                             style=""
+                             data-effect="t(true,n,n,n,80,n,n,n,n,n,n,n,-75,n,n)"
+                             data-duration="3000"
+                             data-delay="400"
+                             data-ease="easeOutQuint"
+                             data-hide-effect="t(true,n,n,n,8,n,n,n,n,n,n,n,150,n,n)"
+                             data-hide-duration="1500"
+                             data-hide-ease="easeInQuint"
+                             data-hide-time="5900"
+                             data-offset-x="264"
+                             data-offset-y="181"
+                             data-origin="tc"
+                             data-position="normal" >Traditional. Non-traditional. We help families of all types.</div>
+                        <div class="ms-layer msp-cn-121-8 text-right"
+                             style=""
+                             data-effect="t(true,n,n,n,80,n,n,n,n,n,n,n,-70,n,n)"
+                             data-duration="3000"
+                             data-delay="800"
+                             data-ease="easeOutQuint"
+                             data-hide-effect="t(true,n,n,n,10,n,n,n,n,n,n,n,150,n,n)"
+                             data-hide-duration="1650"
+                             data-hide-ease="easeInQuint"
+                             data-hide-time="6062"
+                             data-offset-x="214"
+                             data-offset-y="220"
+                             data-origin="tc"
+                             data-position="normal" >Family Counseling</div>
+                    </div>
+                </div>
+                <!-- END MasterSlider Main -->
+            </div>
+            <!-- END MasterSlider -->
+        </section>
+
+
+        <div class="container pt90 pb50">
+    <div class="row">
+        <div class="col-md-4 mb40">
+            <div class="icon-card-style1">
+                <i class="fa fa-user"></i>
+                <div class="overflow-hiden">
+                    <h4 class="h6 font600">Individual Counseling</h4>
+                    <p class="mb20">
+                        We support individuals in exploring and resolving issues of an interpersonal,
+                        intrapsychic, or personal nature
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb40">
+            <div class="icon-card-style1">
+                <i class="fa fa-heart"></i>
+                <div class="overflow-hiden">
+                    <h4 class="h6 font600">Couples Counseling</h4>
+                    <p class="mb20">
+                        We use the
+                        <a href="https://www.gottman.com/about/the-gottman-method/">Gottman Method</a>
+                        to help couples effectively assess and improve their relationships
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb40">
+            <div class="icon-card-style1">
+                <i class="fa fa-users"></i>
+                <div class="overflow-hiden">
+                    <h4 class="h6 font600">Family Counseling</h4>
+                    <p class="mb20">
+                        We support families in understanding and reconnecting with each other
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=" bg-faded pb80 pt80">
+    <div class="container">
+        <div class="center-title mb50 text-center">
+            <h4>Client Reviews</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mr-auto ml-auto">
+                <div class="owl-carousel owl-theme owl-testimonials-full">
+                    <div class="item">
+                        <div class="testimonial-full">
+                            <p class="lead">
+                                "Martha was a huge help in helping me cope with the loss of my father."
+                            </p>
+                            <div class="clearfix testimonial-author">
+                                <h5 class="font400 h6 mb0 pt5">Alyse D. - </h5>
                             </div>
                         </div>
-                    </div><!--hero inner-->
-
-                </div><!--parallax hero-->
-            </div><!--parallax image div-->
-            <div class="mouse-down"><a data-scroll href="static/versa_html/#about"><i class="fa fa-angle-down fa-3x text-white"></i></a></div>
-        </section>
-        <!--intro section end-->
-        <div class="container pt90 pb50">
-            <div class="row">
-                <div class="col-md-4 mb40">
-                    <div class="icon-card-style1">
-                        <i class="icon-picture text-muted bg-faded icon-round-60"></i>
-                        <div class="overflow-hiden">
-                            <h4 class="h6 font600">Clean pixel perfect</h4>
-                            <p class="mb20">
-                                please consider donating a small sum to help pay for the hosting and bandwidth bill.
+                    </div><!--/item-->
+                    <div class="item">
+                        <div class="testimonial-full">
+                            <p class="lead">
+                                " "
                             </p>
-                            <a href="static/versa_html/#" class="btn btn-underline">Learn More</a>
+                            <div class="clearfix testimonial-author">
+                                <h5 class="font400 h6 mb0 pt5">John Doe - </h5>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb40">
-                    <div class="icon-card-style1">
-                        <i class="icon-layers text-muted bg-faded icon-round-60"></i>
-                        <div class="overflow-hiden">
-                            <h4 class="h6 font600">Minimal & powerful</h4>
-                            <p class="mb20">
-                                please consider donating a small sum to help pay for the hosting and bandwidth bill.
+                    </div><!--/item-->
+                    <div class="item">
+                        <div class="testimonial-full">
+                            <p class="lead">
+                                " "
                             </p>
-                            <a href="static/versa_html/#" class="btn btn-underline">Learn More</a>
+                            <div class="clearfix testimonial-author">
+                                <h5 class="font400 h6 mb0 pt5">John Doe - </h5>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb40">
-                    <div class="icon-card-style1">
-                        <i class="icon-chat text-muted bg-faded icon-round-60"></i>
-                        <div class="overflow-hiden">
-                            <h4 class="h6 font600">24/7 Support</h4>
-                            <p class="mb20">
-                                please consider donating a small sum to help pay for the hosting and bandwidth bill.
-                            </p>
-                            <a href="static/versa_html/#" class="btn btn-underline">Learn More</a>
-                        </div>
-                    </div>
+                    </div><!--/item-->
                 </div>
             </div>
         </div>
-        <div class=" bg-faded pb80 pt80">
-            <div class="container">
-                <div class="center-title mb50 text-center">
-                    <h4>What our customers think</h4>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 mr-auto ml-auto">
-                        <div class="owl-carousel owl-theme owl-testimonials-full">
-                            <div class="item">
-                                <div class="testimonial-full">
-                                    <p class="lead">
-                                        " If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. "
+    </div>
 
-                                    </p>
-                                    <div class="clearfix testimonial-author">
-                                        <img src="static/versa_html/images/team-4.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="60">
-                                        <h5 class="font400 h6 mb0 pt5">John Doe - </h5>
-                                        <small>Wrapbootstrap</small>
-                                    </div>
-                                </div>
-                            </div><!--/item-->
-                            <div class="item">
-                                <div class="testimonial-full">
-                                    <p class="lead">
-                                        " If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. "
-
-                                    </p>
-                                    <div class="clearfix testimonial-author">
-                                        <img src="static/versa_html/images/team-6.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="60">
-                                        <h5 class="font400 h6 mb0 pt5">John Doe - </h5>
-                                        <small>Wrapbootstrap</small>
-                                    </div>
-                                </div>
-                            </div><!--/item-->
-                            <div class="item">
-                                <div class="testimonial-full">
-                                    <p class="lead">
-                                        " If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. "
-
-                                    </p>
-                                    <div class="clearfix testimonial-author">
-                                        <img src="static/versa_html/images/team-8.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="60">
-                                        <h5 class="font400 h6 mb0 pt5">John Doe - </h5>
-                                        <small>Wrapbootstrap</small>
-                                    </div>
-                                </div>
-                            </div><!--/item-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="container pt90 pb50">
-            <div class="center-title mb50 text-center">
-                <h4>Counseling team</h4>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 mb50 text-center">
-                    <img src="static/versa_html/images/team-1.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
-                    <h4>Angelina Doe</h4>
-                    <span class="font600 text-muted">Marketing manager</span>
-                    <ul class="list-inline social-list pt20 pb0 mb0">
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div><!--/col-->
-                <div class="col-md-6 col-lg-3 mb50 text-center">
-                    <img src="static/versa_html/images/team-2.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
-                    <h4>Angelina Doe</h4>
-                    <span class="font600 text-muted">Marketing manager</span>
-                    <ul class="list-inline social-list pt20 pb0 mb0">
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div><!--/col-->
-                <div class="col-md-6 col-lg-3 mb50 text-center">
-                    <img src="static/versa_html/images/team-3.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
-                    <h4>Angelina Doe</h4>
-                    <span class="font600 text-muted">Marketing manager</span>
-                    <ul class="list-inline social-list pt20 pb0 mb0">
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div><!--/col-->
-                <div class="col-md-6 col-lg-3 mb50 text-center">
-                    <img src="static/versa_html/images/team-4.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
-                    <h4>Angelina Doe</h4>
-                    <span class="font600 text-muted">Marketing manager</span>
-                    <ul class="list-inline social-list pt20 pb0 mb0">
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div><!--/col-->
-            </div>
-        </div>
+</div>
+<div class="container pt90 pb50">
+    <div class="center-title mb50 text-center">
+        <h4>Counseling team</h4>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-3 mb50 text-center">
+            <img src="static/versa_html/images/team-1.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
+            <h4>Martha Dominguez</h4>
+            <span class="font600 text-muted">Counselor</span>
+            <ul class="list-inline social-list pt20 pb0 mb0">
+                <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div><!--/col-->
+        <div class="col-md-6 col-lg-3 mb50 text-center">
+            <img src="static/versa_html/images/team-2.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
+            <h4>Angelina Doe</h4>
+            <span class="font600 text-muted">Counselor</span>
+            <ul class="list-inline social-list pt20 pb0 mb0">
+                <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div><!--/col-->
+        <div class="col-md-6 col-lg-3 mb50 text-center">
+            <img src="static/versa_html/images/team-3.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
+            <h4>Angelina Doe</h4>
+            <span class="font600 text-muted">Counselor</span>
+            <ul class="list-inline social-list pt20 pb0 mb0">
+                <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div><!--/col-->
+        <div class="col-md-6 col-lg-3 mb50 text-center">
+            <img src="static/versa_html/images/team-4.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
+            <h4>Angelina Doe</h4>
+            <span class="font600 text-muted">Counselor</span>
+            <ul class="list-inline social-list pt20 pb0 mb0">
+                <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div><!--/col-->
+    </div>
+</div>
         <footer class="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-6">
-                        <h4>Behavioral Health Integrative Services</h4>
+                        <h4>Office 1</h4>
                         <p>
-                            Add short message here
+                            370 East 160th, Floor 2
+                            Bronx, NY 10451
                         </p>
                     </div><!--/.column-->
                     <div class="col-md-6 col-lg-6">
-                        <h4>Newsletter</h4>
-                        <div class="mb30">
-                            <form>
-                                <div class="form-group">
-                                    <label for="subscribe">Subscribe today and get Latest Updates</label>
-                                    <input type="email" class="form-control" placeholder="Mail id" id="subscribe">
-                                    <button type="submit" class="btn-newsletter"><i class="fa fa-paper-plane-o"></i></button>
-                                </div>
-                            </form>
-                        </div>
+                        <h4>Office 2</h4>
+                        <p>
+                            3265 Johnson Ave, Suite 105
+                            Bronx, NY 10463
+                        </p>
+                    </div><!--/.column-->
                         <span class="font400">&copy; Copyright MakeThis.com 2019</span>
                     </div><!--/.column-->
                 </div><!--/.row-->
@@ -255,10 +357,13 @@
         </footer><!--/.footer-->
         <script src="static/versa_html/js/bundle/bundle.js" type="text/javascript"></script>
         <script src="static/versa_html/js/versa.custom.js"></script>
+        <!-- Master Slider -->
+        <script src="static/versa_html/plugins/masterslider/masterslider.min.js"></script>
         <!--dz parallaxer-->
         <script type="text/javascript" src="static/versa_html/plugins/dzsparallaxer/dzsparallaxer.js"></script>
         <script type="text/javascript" src="static/versa_html/plugins/dzsparallaxer/scroller.js"></script>
         <script type="text/javascript" src="static/versa_html/plugins/dzsparallaxer/advancedscroller/plugin.js"></script>
+        <script src="static/versa_html/js/master-slider-home.js"></script>
         <!-- load cubeportfolio -->
         <script type="text/javascript" src="static/versa_html/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
         <!-- init cubeportfolio -->

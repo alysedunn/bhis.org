@@ -1,76 +1,74 @@
 {% extends "layout.html" %}
-{% block nav %}
-<li role="presentation" class="active"><a href="{{ url_for('aboutus') }}">About Us</a></li>
-<li role="presentation"><a href="{{ url_for('questions') }}">Questions</a></li>
-<li role="presentation"><a href="{{ url_for('forms') }}">Forms</a></li>
-<li role="presentation"><a href="{{ url_for('pricing') }}">Pricing</a></li>
-<li role="presentation"><a href="{{ url_for('contact') }}">Contact</a></li>
-{% endblock %}
 {% block content %}
-	<div class="container">
-			<div class="slider">
-				<div class="img-responsive">
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					</div>
-				</div>
-			</div>
-	</div>
+<!--page title-->
+<div class="dzsparallaxer auto-init height-is-based-on-content "  data-options='{   direction: "reverse"}'>
+    <div class="divimage dzsparallaxer--target " style="width: 101%; height: 130%; background-image: url(static/img/group.jpeg)">
+    </div>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="text-center">
-					<h2>Our Approach</h2>
-					<p>We believe in a complete/whole person. This is achieved by integrating services with the medical & therapeutic modalities. Working collaboratively with health care professionals is essential for effective treatment. Far too few people see the importance of collaborating with the community for behavioral health treatment. Too many barriers are presented: for example a person with diabetes who is not in compliance with medical or Physician’s treatment. Perhaps that person is depressed; therefore, will never be in compliance. The goal at Behavioral Health Integrative Services is to treat a person’s mental health wellbeing first, in order to achieve a sound physical wellbeing.</p>
-					<p>There are many different models of therapy to choose from. We work using a range of approaches, as perhaps one model of counseling may not be helpful to everyone. We prefer to remain flexible to your requirements.</p>
-					<p>We aim to be sensitive to the cultural and ethnic origins of individuals, and to people's religious beliefs and sexual orientation.</p>
-				</div>
-				<hr>
-			</div>
+    <div class="container pt100 pb70">
+        <div class="row pb50">
+            <div class="col-md-8 ml-auto mr-auto wow bounceIn" data-wow-delay=".2s">
+                <h3 class="h1 text-center font300  pt100 text-white">About - Us</h3>
+            </div>
+        </div>
+    </div>
+</div><!--parallax-->
+<!--/.page-title-->
 
-			<div class="col-md-12">
-				<div class="text-center">
-					<h2>Experience</h2>
-					<p>Alongside private practice, We work the Southern half of the State of New York as professional counselors and receive referrals from within the health, public, and private sectors. We are Licensed Mental Health Counselors and have advanced training, a graduate academic degree, clinical work experience, and have completed a state-certified licensing examination. We are Credentialed Alcoholism and Substance Abuse Counselors.</p>
-				</div>
-				<hr>
-			</div>
+<div class="container pt90 pb60">
+    <div class="row mb50">
+        <div class="col-md-12 text-justify">
+            <h2>Our Approach</h2>
+            <p>We believe in a complete/whole person. This is achieved by integrating services with the medical
+                & therapeutic modalities. Working collaboratively with health care professionals is essential
+                for effective treatment. Far too few people see the importance of collaborating with the
+                community for behavioral health treatment. Too many barriers are presented: for example a
+                person with diabetes who is not in compliance with medical or Physician’s treatment. Perhaps
+                that person is depressed; therefore, will never be in compliance. The goal at Behavioral Health
+                Integrative Services is to treat a person’s mental health wellbeing first, in order to achieve
+                a sound physical wellbeing.</p>
+            <p>There are many different models of therapy to choose from. We work using a range of approaches,
+                as perhaps one model of counseling may not be helpful to everyone. We prefer to remain flexible
+                to your requirements.</p>
+            <p>We aim to be sensitive to the cultural and ethnic origins of individuals, and to people's
+                religious beliefs and sexual orientation.</p>
+            <br>
+            <hr>
+            <br>
 
-			<div class="col-md-12">
-				<div class="text-center">
-					<h2>Qualifications</h2>
-					<p>The maintenance of high standards of professional competence is a responsibility shared by all mental health counselors at Behavioral Health Integrative Services in the best interests of the public and the profession. Our mental health counselors recognize the boundaries of their particular competencies and the limitations of their expertise. The mental health counselors at Behavioral Health Integrative Services only provide those services and use only those techniques for which they are qualified by education, techniques or experience. Our mental health counselors maintain knowledge of relevant scientific and professional information related to the services they render, and they recognize the need for on-going education.</p>
-					<p>Our Counselor's hold a variety of professional accreditations:</p>
-					<ul>
-					<li style="list-style: none; color:#8a8d94; font-size:15px;">~&emsp;Master of Science Degree in Counseling and/or Psychology&emsp;~</li>
-					<li style="list-style: none; color:#8a8d94; font-size:15px;">~&emsp;Licensed Professional Clinical Counselor&emsp;~</li>
-					<li style="list-style: none; color:#8a8d94; font-size:15px;">~&emsp;Credentialed Alcoholism and Substance Abuse Counselor&emsp;~</li>
-					<li style="list-style: none; color:#8a8d94; font-size:15px;">~&emsp;New Presbyterian Hospital Center for Autism & Developing Brain Intervention Specialist, Early Start Denver Model (ESDM)&emsp;~</li>
-					<li style="list-style: none; color:#8a8d94; font-size:15px;">~&emsp;Office of Alcohol and Substance Abuse DWI Assessor&emsp;~</li>
-					<li style="list-style: none; color:#8a8d94; font-size:15px;">~&emsp;OASAS Court Approved Provider for DWI Screening/Assessor&emsp;~</li>
-					<li style="list-style: none; color:#8a8d94; font-size:15px;">~&emsp;Certification, Treatment of Personality Disorder&emsp;~</li>
-					<li style="list-style: none; color:#8a8d94; font-size:15px;">~&emsp;Rational Emotive Behavioral Therapy&emsp;~</li>
-					<li style="list-style: none; color:#8a8d94; font-size:15px;">~&emsp;Substance Abuse Counselor&emsp;~</li>
-				</ul>
-				</div>
-				<hr>
-			</div>
+            <h2>Experience</h2>
+            <p>Alongside private practice, We work the Southern half of the State of New York as professional
+                counselors and receive referrals from within the health, public, and private sectors. We are
+                Licensed Mental Health Counselors and have advanced training, a graduate academic degree,
+                clinical work experience, and have completed a state-certified licensing examination. We are
+                Credentialed Alcoholism and Substance Abuse Counselors.</p>
+            <br>
+            <hr>
+            <br>
 
-		</div>
-	</div>
+            <h2>Qualifications</h2>
+            <p>The maintenance of high standards of professional competence is a responsibility shared by all
+                mental health counselors at Behavioral Health Integrative Services in the best interests of the
+                public and the profession. Our mental health counselors recognize the boundaries of their
+                particular competencies and the limitations of their expertise. The mental health counselors at
+                Behavioral Health Integrative Services only provide those services and use only those
+                techniques for which they are qualified by education, techniques or experience. Our mental
+                health counselors maintain knowledge of relevant scientific and professional information
+                related to the services they render, and they recognize the need for on-going education.</p>
+            <p>Our Counselors hold a variety of professional accreditations:</p>
+            <ul>
+            <li>Master of Science Degree in Counseling and/or Psychology</li>
+            <li>Licensed Professional Clinical Counselor</li>
+            <li>Credentialed Alcoholism and Substance Abuse Counselor</li>
+            <li>New Presbyterian Hospital Center for Autism & Developing Brain Intervention Specialist, Early Start Denver Model (ESDM)</li>
+            <li>Office of Alcohol and Substance Abuse DWI Assessor</li>
+            <li>OASAS Court Approved Provider for DWI Screening/Assessor</li>
+            <li>Certification, Treatment of Personality Disorder</li>
+            <li>Rational Emotive Behavioral Therapy</li>
+            <li>Substance Abuse Counselor</li>
+            </ul>
+        </div>
 
-  {% endblock %}
-	<footer>
-		<div class="inner-footer">
-			<div class="container">
-				<div class="row">
-            {% block footer %}
-          {% endblock %}
-				</div>
-			</div>
-		</div>
-		</div>
-	</footer>
+</div>
 
-</body>
-</html>
+{% endblock %}

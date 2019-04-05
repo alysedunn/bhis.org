@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cde83b2-36a1-4100-b9f3-bd5ce60841a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Main/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/bh_logo_shadow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/bh_logo_shadow_head_only.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/versa_html/plugins/masterslider/images/mountain.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/static/versa_html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/templates/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/templates/aboutus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/templates/layout.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,19 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="120">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="12" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -35,41 +32,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/templates/layout.html">
+        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/static/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79140">
-              <caret line="5276" column="52" selection-start-line="5276" selection-start-column="52" selection-end-line="5276" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2049">
-              <caret line="211" column="73" selection-start-line="211" selection-start-column="73" selection-end-line="211" selection-end-column="73" />
+            <state relative-caret-position="195">
+              <caret line="13" column="44" selection-end-line="372" />
               <folding>
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#18632#18638#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/js/versa.custom.js">
+        <entry file="file://$PROJECT_DIR$/Main/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="133" column="26" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#18418#18424#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/templates/aboutus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="73" selection-start-line="73" selection-end-line="73" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/templates/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -78,36 +89,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>car</find>
-      <find>counseling and</find>
-      <find>carousel-item</find>
-      <find>body</find>
-      <find>nav</find>
-      <find>.menu</find>
-      <find>list-style-type</find>
-      <find>ul</find>
-      <find>.ul</find>
-      <find>bar-default navbar</find>
-      <find>plugins</find>
-      <find>href=</find>
-      <find>href=&quot;</find>
+      <find>aboutus</find>
+      <find>about us</find>
+      <find>url_for('</find>
+      <find>Company History</find>
+      <find>We're always</find>
+      <find>Perfect c</find>
+      <find>/nav</find>
+      <find>We're versa</find>
+      <find>treatment</find>
+      <find>index</find>
+      <find>Clean pixel</find>
+      <find>/plugins/masterslider/images/</find>
+      <find>Good design</find>
+      <find>read more</find>
+      <find>Individual c</find>
+      <find>Imagination</find>
+      <find>individual c</find>
+      <find>elegant template</find>
+      <find>imagination</find>
+      <find>couples co</find>
+      <find>individual counseling</find>
+      <find>couples counsel</find>
+      <find>footer</find>
       <find>cart</find>
+      <find>logo</find>
+      <find>book now</find>
       <find>search</find>
-      <find>recent projects</find>
-      <find>a great lookimg</find>
-      <find>modern tools</find>
-      <find>forms</find>
-      <find>auto</find>
-      <find>custom</find>
-      <find>mr-auto</find>
-      <find>versa</find>
-      <find>facebook</find>
-      <find>a template can</find>
-      <find>Quick links</find>
-      <find>hire us</find>
-      <find>Hire us</find>
-      <find>Creative</find>
-      <find>MAIL_USERNAME</find>
+      <find>navbar-right-col</find>
+      <find>plugins/dzsparallaxer/scroller.js</find>
+      <find>plugins/masterslider/style/masterslider.css</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,15 +128,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Main/static/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/Main/templates/layout.html" />
-        <option value="$PROJECT_DIR$/Main/templates/index.html" />
         <option value="$PROJECT_DIR$/Main/application.py" />
+        <option value="$PROJECT_DIR$/Main/templates/aboutus.html" />
+        <option value="$PROJECT_DIR$/Main/templates/layout.html" />
+        <option value="$PROJECT_DIR$/Main/static/versa_html/index.html" />
+        <option value="$PROJECT_DIR$/Main/templates/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1494" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1440" />
+    <option name="y" value="93" />
     <option name="width" value="1837" />
     <option name="height" value="1054" />
   </component>
@@ -157,15 +170,7 @@
               <item name="bhis.org" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="versa_html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bhis.org" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bhis.org" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="versa_html" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bhis.org" type="b2602c69:ProjectViewProjectNode" />
@@ -209,18 +214,18 @@
       <option name="presentableId" value="Default" />
       <updated>1552746332858</updated>
       <workItem from="1552746334151" duration="10619000" />
-      <workItem from="1553979152709" duration="2101000" />
+      <workItem from="1553979152709" duration="6635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12720000" />
+    <option name="totallyTimeSpent" value="21322000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1494" y="23" width="1837" height="1054" extended-state="0" />
+    <frame x="1442" y="23" width="1918" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12256268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1098081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -276,13 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79140">
@@ -297,23 +295,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/page-about-me.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2049">
-          <caret line="211" column="73" selection-start-line="211" selection-start-column="73" selection-end-line="211" selection-end-column="73" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/page-about-company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="77" lean-forward="true" selection-end-line="446" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/aboutus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="73" selection-start-line="73" selection-end-line="73" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/masterslider/images/mscrtvi-background-slide-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/masterslider/images/mscrtvi-background-slide-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/plugins/masterslider/images/mscrtvi-background-slide-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="12" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="44" selection-end-line="372" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#18632#18638#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#18418#18424#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

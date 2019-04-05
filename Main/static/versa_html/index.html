@@ -26,166 +26,34 @@
         <![endif]-->
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-faded">
-            <div class="navbar-right-col">
-                <ul class="list-inline">
-
-                    <li class="list-inline-item">
-                        <a href="shop-cart.html"><i class="fa fa-shopping-basket"></i> <span class="badge badge-primary">2</span></a>
-                    </li>
-                    <li class="list-inline-item dropdown dropdown-search">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-search"></i></a>
-                        <div class="dropdown-menu search-dropdown-menu dropdown-menu-left">
-                            <form role="form">
-                                <input type="text" class="form-control" placeholder="Search...">
-                                <button type="submit" class="btn-nav-search"><i class="fa fa-search"></i></button>
-                            </form>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-faded" style="height: 12%;">
+            <a class="navbar-brand" href="{{ url_for('homepage') }}"><img src="/static/img/bh_logo_shadow_head_only.jpg" alt="" style="height: 150px;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav  ml-auto">
-                    <li class="nav-item active dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Home </a>
-                        <div class="dropdown-menu dropdown-menu-left">
-                            <a href="index.html" class="dropdown-item">Business & Corporate</a>
-                            <a href="index-saas-webapp.html" class="dropdown-item">Saas / WebApp</a>
-                            <a href="index-landing.html" class="dropdown-item">Landing page</a>
-                            <a href="index-landing-alt.html" class="dropdown-item">Landing alt </a>
-                            <a href="index-restaurants.html" class="dropdown-item">Restaurants </a>                           
-                            <a href="index-oneage.html" class="dropdown-item">One page</a>
-                            <a href="index-parallax-hero.html" class="dropdown-item">Parallax hero</a>
-                            <a href="index-youtube.html" class="dropdown-item">Youtube hero</a>
-                            <a href="index-text-rotate.html" class="dropdown-item">Text rotate hero</a>
-                        </div>
+                <ul class="navbar-nav  ml-auto navbar-right-col">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('aboutus') }}">About Us</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Pages</a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-submenu">
-                                <a tabindex="-1" href="#" class="dropdown-item">About us</a>
-                                <ul class="dropdown-menu">
-                                    <li><a tabindex="-1" href="page-about-company.html" class="dropdown-item">About Company</a></li>
-                                    <li><a tabindex="-1" href="page-about-me.html" class="dropdown-item">About Me</a></li>
-                                    <li><a tabindex="-1" href="page-team.html" class="dropdown-item">Our Team</a></li>                                   
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a tabindex="-1" href="#" class="dropdown-item">Services</a>
-                                <ul class="dropdown-menu">
-                                    <li><a tabindex="-1" href="page-service-icon.html" class="dropdown-item">Service Icon</a></li>
-                                    <li><a tabindex="-1" href="page-service-image.html" class="dropdown-item">Service image</a></li>                                  
-                                </ul>
-                            </li>
-                            <li class="dropdown-submenu">
-                                <a tabindex="-1" href="#" class="dropdown-item">Shop</a>
-                                <ul class="dropdown-menu">
-                                    <li><a tabindex="-1" href="shop-products.html" class="dropdown-item">Products</a></li>
-                                    <li><a tabindex="-1" href="shop-product-detail.html" class="dropdown-item">Product detail</a></li>
-                                    <li><a tabindex="-1" href="shop-cart.html" class="dropdown-item">Cart</a></li> 
-                                    <li><a tabindex="-1" href="shop-checkout.html" class="dropdown-item">Checkout</a></li> 
-                                </ul>
-                            </li>
-                            <li class="">
-                                <a href="page-pricing.html" class="dropdown-item">Pricing Tables</a>
-                            </li>
-                            <li class="">
-                                <a href="page-faqs.html" class="dropdown-item">Faqs</a>
-                            </li>
-                            <li class="">
-                                <a href="page-404.html" class="dropdown-item">404</a>
-                            </li>
-                            <li class="">
-                                <a href="page-login.html" class="dropdown-item">Login</a>
-                            </li>
-                            <li class="">
-                                <a href="page-register.html" class="dropdown-item">register</a>
-                            </li>
-                            <li class="">
-                                <a href="page-coming-soon.html" class="dropdown-item">Coming Soon</a>
-                            </li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('pricing') }}">Pricing</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Portfolio</a>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                            <li><a href="folio-2col.html" class="dropdown-item">2 Columns</a></li>
-                            <li><a href="folio-3col.html" class="dropdown-item">3 Columns</a></li>
-                            <li><a href="folio-4col.html" class="dropdown-item">4 Columns</a></li>
-                            <li><a href="folio-5col.html" class="dropdown-item">5 Columns</a></li>
-                            <li><a href="folio-masonry-mosaic.html" class="dropdown-item">Masonry Mosaic</a></li>
-                            <li><a href="folio-detail.html" class="dropdown-item">Detail Page</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('questions') }}">Questions</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Blog</a>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                            <li><a href="blog-contained.html" class="dropdown-item">Blog Contained</a></li>
-                            <li><a href="blog-sidebar.html" class="dropdown-item">Blog Sidebar</a></li>
-                            <li><a href="blog-masonry.html" class="dropdown-item">Blog Masonry</a></li>
-                            <li><a href="blog-single.html" class="dropdown-item">Blog Detail</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.digitalintakes.com/login_after_receiving_forms?id=42631">Forms</a>
                     </li>
-                    <li class="nav-item dropdown dropdown-mega">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Elements</a>
-                        <div class="dropdown-menu dropdown-mega-menu" role="menu" aria-labelledby="dropdownMenu">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-3">
-                                        <a class="dropdown-item" href="element-buttons.html">Buttons</a>
-                                        <a class="dropdown-item" href="element-typo.html">Typography</a>
-                                        <a class="dropdown-item" href="element-tabs.html">Tabs</a>
-                                        <a class="dropdown-item" href="element-accordions.html">Accordions </a>    
-                                        <a class="dropdown-item" href="element-tables.html">Tables </a>
-                                        <a class="dropdown-item" href="element-tables-data.html">Tables data </a>
-                                        
-
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <a class="dropdown-item" href="element-cta.html">Call to actions</a>
-                                        <a class="dropdown-item" href="element-cta-background.html">Call to actions backgrounds </a>
-                                        <a class="dropdown-item" href="element-testimonials.html">Testimonials</a>
-                                        <a class="dropdown-item" href="element-testimonials-2.html">Testimonials 2 </a>
-                                        <a class="dropdown-item" href="element-cards.html">Card Blocks</a>
-                                        <a class="dropdown-item" href="element-icon-cards.html">Icon cards</a>                                        
-                                        <a class="dropdown-item" href="element-icon-cards-2.html">Icon cards 2 </a>
-                                        <a class="dropdown-item" href="element-cards-news.html">News cards </a>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <a class="dropdown-item" href="element-grids.html">Grids</a>                                 
-                                        <a class="dropdown-item" href="element-modals-alerts.html">Modals & Alerts</a>
-                                        <a class="dropdown-item" href="element-feature-image.html">Feature image  </a>
-                                        <a class="dropdown-item" href="element-feature-image-split.html">Feature imagesplit  </a> 
-                                        <a class="dropdown-item" href="element-feature-nav.html">Feature Nav  </a>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <a class="dropdown-item" href="header-standard.html">Header Standard</a>
-                                        <a class="dropdown-item" href="header-transparent.html">Header Transparent</a>
-                                        <a class="dropdown-item" href="header-transparent-sticky.html">Header Transparent Sticky</a>
-                                        <a class="dropdown-item" href="header-startup.html">Header Startup  </a>
-                                        <a class="dropdown-item" href="header-fullscreen.html">Header fullscreen  </a>
-                                        <a class="dropdown-item" href="header-login.html">Header login  </a>
-                                        
-                                        <a class="dropdown-item" href="footer-sticky.html">Footer Sticky</a>
-                                        <a class="dropdown-item" href="footer-alt.html">Footer Alt </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://doxy.me/Martha1">Sign into my Video Office</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Contact</a>
-                        <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu">
-                            <li><a href="contact-default.html" class="dropdown-item">Contact Default</a></li>
-                            <li><a href="contact-advanced.html" class="dropdown-item">Contact Advanced</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
                     </li>
-                    <li class="nav-item"><a target="_blank" href="https://wrapbootstrap.com/theme/versa-minimal-startups-bootstrap4-WB0M13NT7/?ref=wb_rakesh" class=" btn btn-primary btn-lg">Buy Now</a></li>
+                    <li class="nav-item">
+                        <a target="_blank" href="https://calendly.com/martha-alvarez4" class="btn btn-primary btn-lg">Book Now</a>
+                    </li>
                 </ul>
             </div>
         </nav><!--/footer-->
@@ -223,67 +91,7 @@
                              data-position="normal" />
                     </div>
                     <div class="ms-slide fullwidth-layers" data-delay="7.5" data-fill-mode="fill" >
-                        <img src="plugins/masterslider/images/blank.gif" alt="" title="" data-src="plugins/masterslider/images/mscrtvi-background-slide-4.jpg" />
-                        <img class="ms-layer msp-cn-121-3"
-                             src="plugins/masterslider/images/blank.gif"
-                             data-src="plugins/masterslider/images/mscrtvi-cupinhand-slide-4.png"
-                             alt=""
-                             style=""
-                             data-effect="t(false,35,550,n,15,n,n,n,n,n,n,n,n,n,n)"
-                             data-duration="4000"
-                             data-delay="1625"
-                             data-ease="easeInOutQuart"
-                             data-parallax="3"
-                             data-type="image"
-                             data-offset-x="461"
-                             data-offset-y="-11"
-                             data-origin="bc"
-                             data-position="normal" />
-                        <img class="ms-layer msp-cn-121-4"
-                             src="plugins/masterslider/images/blank.gif"
-                             data-src="plugins/masterslider/images/mscrtvi-book-slide-4.png"
-                             alt=""
-                             style=""
-                             data-effect="t(true,n,-250,n,-50,n,n,n,n,n,n,n,n,n,n)"
-                             data-duration="4000"
-                             data-delay="600"
-                             data-ease="easeOutQuart"
-                             data-parallax="2"
-                             data-type="image"
-                             data-offset-x="109"
-                             data-offset-y="-315"
-                             data-origin="mc"
-                             data-position="normal" />
-                        <img class="ms-layer msp-cn-121-5"
-                             src="plugins/masterslider/images/blank.gif"
-                             data-src="plugins/masterslider/images/mscrtvi-watch-slide-4.png"
-                             alt=""
-                             style=""
-                             data-effect="t(true,-150,n,n,3,n,n,n,n,n,n,n,n,n,n)"
-                             data-duration="5000"
-                             data-delay="200"
-                             data-ease="easeOutQuart"
-                             data-parallax="1"
-                             data-type="image"
-                             data-offset-x="-21"
-                             data-offset-y="112"
-                             data-origin="tl"
-                             data-position="normal" />
-                        <img class="ms-layer msp-cn-121-2"
-                             src="plugins/masterslider/images/blank.gif"
-                             data-src="plugins/masterslider/images/mscrtvi-handonkeyboard-slide-4.png"
-                             alt=""
-                             style=""
-                             data-effect="t(true,-30,10,n,n,n,n,n,n,n,n,n,n,n,n)"
-                             data-duration="5000"
-                             data-delay="1800"
-                             data-ease="easeOutQuart"
-                             data-parallax="1"
-                             data-type="image"
-                             data-offset-x="-69"
-                             data-offset-y="-30"
-                             data-origin="bl"
-                             data-position="normal" />
+                        <img src="plugins/masterslider/images/blank.gif" alt="" title="" data-src="plugins/masterslider/images/mscrtvi-background-slide-1.jpg" />
                         <div class="ms-layer font-title-55 msp-cn-121-16"
                              style=""
                              data-effect="t(true,n,-30,n,-25,n,n,n,2,2,n,n,n,n,n)"
@@ -294,7 +102,7 @@
                              data-offset-x="0"
                              data-offset-y="2"
                              data-origin="mc"
-                             data-position="normal" >Good design</div>
+                             data-position="normal" >Individual Counseling</div>
                         <div class="ms-layer font-desc-24 msp-cn-121-18"
                              style=""
                              data-effect="t(true,n,30,n,-15,n,n,n,2,2,n,n,n,n,n)"
@@ -305,8 +113,8 @@
                              data-offset-x="0"
                              data-offset-y="59"
                              data-origin="mc"
-                             data-position="normal" >is obvious. Great design is transparent.</div>
-                        <a href=""
+                             data-position="normal" >Confidential. Affordable. Effective.</div>
+                        <a href="https://calendly.com/martha-alvarez4"
                            target="_self"
                            class="ms-layer msp-cn-121-21 ms-btn ms-btn-circle ms-btn-n msp-preset-btn-172"
                            data-delay="3000"
@@ -316,10 +124,10 @@
                            data-offset-x="0"
                            data-offset-y="115"
                            data-origin="mc"
-                           data-position="normal" >Read More</a>
+                           data-position="normal" >Book Now</a>
                     </div>
                     <div class="ms-slide" data-delay="7.5" data-fill-mode="fill" >
-                        <img src="plugins/masterslider/images/blank.gif" alt="" title="" data-src="plugins/masterslider/images/mscrtvi-background-slide-1.jpg" />
+                        <img src="plugins/masterslider/images/blank.gif" alt="" title="" data-src="plugins/masterslider/images/mountain.jpeg" />
                         <div class="ms-layer msp-cn-121-7"
                              style=""
                              data-effect="t(true,n,n,n,-40,n,n,n,n,n,n,n,-20,n,n)"
@@ -333,7 +141,7 @@
                              data-offset-x="0"
                              data-offset-y="-140"
                              data-origin="mc"
-                             data-position="normal" >Creativity</div>
+                             data-position="normal" >Couples Counseling</div>
                         <div class="ms-layer msp-cn-121-6"
                              style=""
                              data-effect="t(true,n,n,n,-40,n,n,n,n,n,n,n,110,n,n)"
@@ -347,7 +155,7 @@
                              data-offset-x="0"
                              data-offset-y="-69"
                              data-origin="mc"
-                             data-position="normal" >is intelligence having fun.</div>
+                             data-position="normal" >Come Together. Stay Together.</div>
                         <a href=""
                            target="_self"
                            class="ms-layer ms-btn ms-btn-circle ms-btn-n msp-preset-btn-132"
@@ -362,7 +170,7 @@
                            data-offset-x="0"
                            data-offset-y="-6"
                            data-origin="mc"
-                           data-position="normal" >read more</a>
+                           data-position="normal" >Book Now</a>
                     </div>
                     <div class="ms-slide" data-delay="8.2" data-fill-mode="fill" >
                         <img src="plugins/masterslider/images/blank.gif" alt="" title="" data-src="plugins/masterslider/images/mscrtvi-background-slide-2.jpg" />
@@ -379,7 +187,7 @@
                              data-offset-x="264"
                              data-offset-y="181"
                              data-origin="tc"
-                             data-position="normal" >The most clean & beautiful Minimal</div>
+                             data-position="normal" >Traditional. Non-traditional. We help families of all types.</div>
                         <div class="ms-layer msp-cn-121-8 text-right"
                              style=""
                              data-effect="t(true,n,n,n,80,n,n,n,n,n,n,n,-70,n,n)"
@@ -393,38 +201,7 @@
                              data-offset-x="214"
                              data-offset-y="220"
                              data-origin="tc"
-                             data-position="normal" >Elegant Template.</div>
-                    </div>
-                    <div class="ms-slide" data-delay="7" data-fill-mode="fill" >
-                        <img src="plugins/masterslider/images/blank.gif" alt="" title="" data-src="plugins/masterslider/images/mscrtvi-background-slide-3.jpg" />
-                        <div class="ms-layer msp-cn-121-14"
-                             style=""
-                             data-effect="t(true,n,n,n,-60,n,n,n,n,n,n,n,150,n,n)"
-                             data-duration="3000"
-                             data-delay="200"
-                             data-ease="easeOutQuint"
-                             data-hide-effect="t(true,n,n,n,40,n,n,n,n,n,n,n,150,n,n)"
-                             data-hide-duration="1500"
-                             data-hide-ease="easeInQuint"
-                             data-hide-time="5225"
-                             data-offset-x="156"
-                             data-offset-y="239"
-                             data-origin="br"
-                             data-position="normal" >Imagination</div>
-                        <div class="ms-layer msp-cn-121-12"
-                             style=""
-                             data-effect="t(true,n,n,n,-60,n,n,n,n,n,n,n,120,n,n)"
-                             data-duration="3000"
-                             data-delay="600"
-                             data-ease="easeOutQuint"
-                             data-hide-effect="t(true,n,n,n,30,n,n,n,n,n,n,n,120,n,n)"
-                             data-hide-duration="1500"
-                             data-hide-ease="easeInQuint"
-                             data-hide-time="5337"
-                             data-offset-x="156"
-                             data-offset-y="210"
-                             data-origin="br"
-                             data-position="normal" >is everything, It is the preview of life's coming attractions.</div>
+                             data-position="normal" >Family Counseling</div>
                     </div>
                 </div>
                 <!-- END MasterSlider Main -->
@@ -434,329 +211,146 @@
 
 
         <div class="container pt90 pb50">
-            <div class="row">
-                <div class="col-md-4 mb40">
-                    <div class="icon-card-style1">
-                        <i class="icon-picture text-muted bg-faded icon-round-60"></i>
-                        <div class="overflow-hiden">
-                            <h4 class="h6 font500">Clean pixel perfect</h4>
-                            <p class="mb20">
-                                please consider donating a small sum to help pay for the hosting and bandwidth bill.
+    <div class="row">
+        <div class="col-md-4 mb40">
+            <div class="icon-card-style1">
+                <i class="fa fa-user"></i>
+                <div class="overflow-hiden">
+                    <h4 class="h6 font600">Individual Counseling</h4>
+                    <p class="mb20">
+                        We support individuals in exploring and resolving issues of an interpersonal,
+                        intrapsychic, or personal nature
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb40">
+            <div class="icon-card-style1">
+                <i class="fa fa-heart"></i>
+                <div class="overflow-hiden">
+                    <h4 class="h6 font600">Couples Counseling</h4>
+                    <p class="mb20">
+                        We use the
+                        <a href="https://www.gottman.com/about/the-gottman-method/">Gottman Method</a>
+                        to help couples effectively assess and improve their relationships
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb40">
+            <div class="icon-card-style1">
+                <i class="fa fa-users"></i>
+                <div class="overflow-hiden">
+                    <h4 class="h6 font600">Family Counseling</h4>
+                    <p class="mb20">
+                        We support families in understanding and reconnecting with each other
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=" bg-faded pb80 pt80">
+    <div class="container">
+        <div class="center-title mb50 text-center">
+            <h4>Client Reviews</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mr-auto ml-auto">
+                <div class="owl-carousel owl-theme owl-testimonials-full">
+                    <div class="item">
+                        <div class="testimonial-full">
+                            <p class="lead">
+                                "Martha was a huge help in helping me cope with the loss of my father."
                             </p>
-                            <a href="#" class="btn btn-underline">Learn More</a>
+                            <div class="clearfix testimonial-author">
+                                <h5 class="font400 h6 mb0 pt5">Alyse D. - </h5>
+                            </div>
                         </div>
-                    </div>  
-                </div>
-                <div class="col-md-4 mb40">
-                    <div class="icon-card-style1">
-                        <i class="icon-layers text-muted bg-faded icon-round-60"></i>
-                        <div class="overflow-hiden">
-                            <h4 class="h6 font500">Minimal & powerful</h4>
-                            <p class="mb20">
-                                please consider donating a small sum to help pay for the hosting and bandwidth bill.
+                    </div><!--/item-->
+                    <div class="item">
+                        <div class="testimonial-full">
+                            <p class="lead">
+                                " "
                             </p>
-                            <a href="#" class="btn btn-underline">Learn More</a>
+                            <div class="clearfix testimonial-author">
+                                <h5 class="font400 h6 mb0 pt5">John Doe - </h5>
+                            </div>
                         </div>
-                    </div>  
-                </div>
-                <div class="col-md-4 mb40">
-                    <div class="icon-card-style1">
-                        <i class="icon-chat text-muted bg-faded icon-round-60"></i>
-                        <div class="overflow-hiden">
-                            <h4 class="h6 font500">24/7 Support</h4>
-                            <p class="mb20">
-                                please consider donating a small sum to help pay for the hosting and bandwidth bill.
+                    </div><!--/item-->
+                    <div class="item">
+                        <div class="testimonial-full">
+                            <p class="lead">
+                                " "
                             </p>
-                            <a href="#" class="btn btn-underline">Learn More</a>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <div class="bg-faded pt90 pb90">
-            <div class="container">
-                <div class="center-title text-center mb60">
-                    <h4>Recent Projects</h4>
-                </div>
-                <div id="js-grid-agency" class="cbp cbp-l-grid-agency">
-                    <div class="cbp-item graphic">
-                        <a href="#" target="_blank">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images/box/img-1.jpg" data-cbp-src="images/box/img-1.jpg" alt="" width="380" height="250">
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-agency-title">Dashboard</div>
-                            <div class="cbp-l-grid-agency-desc">Web Design / Graphic</div>
-                        </a>
-                    </div>
-                    <div class="cbp-item web-design logos">
-                        <a href="#" target="_blank">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images/box/img-2.jpg" data-cbp-src="images/box/img-2.jpg" alt="" width="380" height="250">
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-agency-title">World Clock</div>
-                            <div class="cbp-l-grid-agency-desc">Logo / Web Design</div>
-                        </a>
-                    </div>
-                    <div class="cbp-item graphic logos">
-                        <a href="#" target="_blank">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images/box/img-3.jpg" data-cbp-src="images/box/img-3.jpg" alt="" width="380" height="250">
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-agency-title">To-Do Dashboard</div>
-                            <div class="cbp-l-grid-agency-desc">Graphic / Logo</div>
-                        </a>
-                    </div>
-                    <div class="cbp-item web-design graphic">
-                        <a href="#" target="_blank">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images/box/img-4.jpg" data-cbp-src="images/box/img-4.jpg" alt="" width="380" height="250">
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-agency-title">Events and More</div>
-                            <div class="cbp-l-grid-agency-desc">Web Design / Graphic</div>
-                        </a>
-                    </div>
-                    <div class="cbp-item identity web-design">
-                        <a href="#" target="_blank">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images/box/img-5.jpg" data-cbp-src="images/box/img-5.jpg" alt="" width="380" height="250">
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-agency-title">WhereTO App</div>
-                            <div class="cbp-l-grid-agency-desc">Web Design / Identity</div>
-                        </a>
-                    </div>
-                    <div class="cbp-item identity web-design">
-                        <a href="#" target="_blank">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="images/box/img-6.jpg" data-cbp-src="images/box/img-6.jpg" alt="" width="380" height="250">
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-agency-title">Ski * Buddy</div>
-                            <div class="cbp-l-grid-agency-desc">Identity / Web Design</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container pt90 pb90">
-            <div class='feature-col'>
-                <div class='row align-items-center'>
-
-                    <div class='col-lg-5 mr-auto'>
-                        <h2 class="mb40">A great looking template will impress your visitors</h2>
-                        <div class="tabs-default tabs-icon">
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs tabs-default mb30 justify-content-start" role="tablist">
-                                <li class="nav-item" role="presentation"><a class="active nav-link" href="#tb9" aria-controls="tb9" role="tab" data-toggle="tab">Vision</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="#tb10" aria-controls="tb10" role="tab" data-toggle="tab">Mission</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="#tb11" aria-controls="tb11" role="tab" data-toggle="tab">Services</a></li>                       
-                            </ul>
-                            <!-- Tab panes -->
-                            <div class="tab-content text-left mb40">
-                                <div role="tabpanel" class="tab-pane active show fade" id="tb9">
-                                    <p>
-                                        Publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
-
-                                    </p>
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="tb10">
-                                    <p>
-                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
-
-                                    </p>
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="tb11">
-                                    <p class='lead'>
-                                        Desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
-                                    </p>
-                                </div>
+                            <div class="clearfix testimonial-author">
+                                <h5 class="font400 h6 mb0 pt5">John Doe - </h5>
                             </div>
                         </div>
-                        <a href='#' class='btn btn-light btn-xl'>Hire Us</a>
-                    </div>
-                    <div class='col-lg-6 pt50-md'>
-                        <img src='images/feature1.jpg' alt='' class='img-fluid'>
-                    </div>
-                </div>
-            </div><!--feature col-->
-        </div>
-        <div class=" bg-faded pb80 pt80">
-            <div class="container">
-                <div class="center-title mb50 text-center">
-                    <h4>What our customers think</h4>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 mr-auto ml-auto">
-                        <div class="owl-carousel owl-theme owl-testimonials-full">
-                            <div class="item">
-                                <div class="testimonial-full">
-                                    <p class="lead">
-                                        " If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. "
-
-                                    </p>
-                                    <div class="clearfix testimonial-author">
-                                        <img src="images/team-4.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="60">
-                                        <h5 class="font400 h6 mb0 pt5">John Doe - </h5>
-                                        <small>Wrapbootstrap</small>
-                                    </div>
-                                </div>
-                            </div><!--/item-->
-                            <div class="item">
-                                <div class="testimonial-full">
-                                    <p class="lead">
-                                        " If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. "
-
-                                    </p>
-                                    <div class="clearfix testimonial-author">
-                                        <img src="images/team-6.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="60">
-                                        <h5 class="font400 h6 mb0 pt5">John Doe - </h5>
-                                        <small>Wrapbootstrap</small>
-                                    </div>
-                                </div>
-                            </div><!--/item-->
-                            <div class="item">
-                                <div class="testimonial-full">
-                                    <p class="lead">
-                                        " If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. "
-
-                                    </p>
-                                    <div class="clearfix testimonial-author">
-                                        <img src="images/team-8.jpg" alt="" class="img-fluid float-left mr-3 rounded-circle" width="60">
-                                        <h5 class="font400 h6 mb0 pt5">John Doe - </h5>
-                                        <small>Wrapbootstrap</small>
-                                    </div>
-                                </div>
-                            </div><!--/item-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="container pt90 pb50">
-            <div class="center-title mb50 text-center">
-                <h4>Creative team</h4>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 mb50 text-center">
-                    <img src="images/team-1.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
-                    <h4>Angelina Doe</h4>
-                    <span class="font400 text-muted">Marketing manager</span>
-                    <ul class="list-inline social-list pt20 pb0 mb0">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div><!--/col-->
-                <div class="col-md-6 col-lg-3 mb50 text-center">
-                    <img src="images/team-2.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
-                    <h4>Angelina Doe</h4>
-                    <span class="font400 text-muted">Marketing manager</span>
-                    <ul class="list-inline social-list pt20 pb0 mb0">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div><!--/col-->
-                <div class="col-md-6 col-lg-3 mb50 text-center">
-                    <img src="images/team-3.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
-                    <h4>Angelina Doe</h4>
-                    <span class="font400 text-muted">Marketing manager</span>
-                    <ul class="list-inline social-list pt20 pb0 mb0">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div><!--/col-->
-                <div class="col-md-6 col-lg-3 mb50 text-center">
-                    <img src="images/team-4.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
-                    <h4>Angelina Doe</h4>
-                    <span class="font400 text-muted">Marketing manager</span>
-                    <ul class="list-inline social-list pt20 pb0 mb0">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div><!--/col-->
-            </div>
-        </div>
-        <div class="bg-dark pt90 pb90">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 mr-auto ml-auto text-center">
-                        <h3 class="text-white h3 mb20">
-                            A template can change your website's look & feel
-                        </h3>
-                        <p class="lead text-white text-muted mb20">
-                            A clean & minimal style features rich template 
-                        </p>
-                        <a href="#" class="btn btn-light btn-lg btn-rounded">Buy now ($17)</a>
-                    </div>
+                    </div><!--/item-->
                 </div>
             </div>
         </div>
+    </div>
+
+</div>
+<div class="container pt90 pb50">
+    <div class="center-title mb50 text-center">
+        <h4>Counseling team</h4>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-3 mb50 text-center">
+            <img src="static/versa_html/images/team-1.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
+            <h4>Martha Dominguez</h4>
+            <span class="font600 text-muted">Counselor</span>
+            <ul class="list-inline social-list pt20 pb0 mb0">
+                <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div><!--/col-->
+        <div class="col-md-6 col-lg-3 mb50 text-center">
+            <img src="static/versa_html/images/team-2.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
+            <h4>Angelina Doe</h4>
+            <span class="font600 text-muted">Counselor</span>
+            <ul class="list-inline social-list pt20 pb0 mb0">
+                <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div><!--/col-->
+        <div class="col-md-6 col-lg-3 mb50 text-center">
+            <img src="static/versa_html/images/team-3.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
+            <h4>Angelina Doe</h4>
+            <span class="font600 text-muted">Counselor</span>
+            <ul class="list-inline social-list pt20 pb0 mb0">
+                <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div><!--/col-->
+        <div class="col-md-6 col-lg-3 mb50 text-center">
+            <img src="static/versa_html/images/team-4.jpg" alt="" class="img-fluid rounded-circle mb20 shadow20" width="150">
+            <h4>Angelina Doe</h4>
+            <span class="font600 text-muted">Counselor</span>
+            <ul class="list-inline social-list pt20 pb0 mb0">
+                <li class="list-inline-item"><a href="static/versa_html/#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div><!--/col-->
+    </div>
+</div>
         <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <h4>Versa</h4>
+                    <div class="col-md-6 col-lg-6">
+                        <h4>Office 1</h4>
                         <p>
-                            If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. 
+                            370 East 160th, Floor 2
+                            Bronx, NY 10451
                         </p>
-                        <a href="#" class="btn btn-underline">Hire Us</a>
                     </div><!--/.column-->
-                    <div class="col-md-6 col-lg-3">
-                        <h4>Quick Links</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="btn btn-underline">Changelog</a></li>
-                            <li><a href="#" class="btn btn-underline">Updates</a></li>
-                            <li><a href="#" class="btn btn-underline">News</a></li>
-                            <li><a href="#" class="btn btn-underline">Contact us</a></li>
-                            <li><a href="#" class="btn btn-underline">Bootstrap4 Beta</a></li>
-                        </ul>
-
+                    <div class="col-md-6 col-lg-6">
+                        <h4>Office 2</h4>
+                        <p>
+                            3265 Johnson Ave, Suite 105
+                            Bronx, NY 10463
+                        </p>
                     </div><!--/.column-->
-                    <div class="col-md-6 col-lg-3">
-                        <h4>About us</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="btn btn-underline">Features</a></li>
-                            <li><a href="#" class="btn btn-underline">Documentation</a></li>
-                            <li><a href="#" class="btn btn-underline">Blog</a></li>
-                            <li><a href="#" class="btn btn-underline">Terms & conditions</a></li>
-                            <li><a href="#" class="btn btn-underline">Privacy & policy</a></li>
-                        </ul>
-                    </div><!--/.column-->
-                    <div class="col-md-6 col-lg-3">
-                        <h4>Newsletter</h4>
-                        <div class="mb30">
-                            <form>
-                                <div class="form-group">
-                                    <label for="subscribe">Subscribe today and get Latest Updates</label>
-                                    <input type="email" class="form-control" placeholder="Mail id" id="subscribe">
-                                    <button type="submit" class="btn-newsletter"><i class="fa fa-paper-plane-o"></i></button>
-                                </div>
-                            </form>
-                        </div>
-                        <ul class="social list-inline mb30">
-                            <li class="list-inline-item"><a class="facebook" href="#"><i class="fa fa-facebook-f"></i></a></li>
-                            <li class="list-inline-item"><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a class="gplus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
-                        <span class="font400">&copy; Copyright 2020. Versa2.0</span>
+                        <span class="font400">&copy; Copyright MakeThis.com 2019</span>
                     </div><!--/.column-->
                 </div><!--/.row-->
             </div><!--/.container-->
