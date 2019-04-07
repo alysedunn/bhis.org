@@ -1,175 +1,105 @@
 {% extends "layout.html" %}
-{% block nav %}
-
-<li role="presentation"><a href="{{ url_for('aboutus') }}">About Us</a></li>
-<li role="presentation"><a href="{{ url_for('questions') }}">Questions</a></li>
-<li role="presentation"><a href="{{ url_for('forms') }}">Forms</a></li>
-<li role="presentation" class="active"><a href="{{ url_for('pricing') }}">Pricing</a></li>
-<li role="presentation"><a href="{{ url_for('contact') }}">Contact</a></li>
-
-{% endblock %}
 {% block content %}
 
-<!-- Start of pricing -->
-	<div class="container">
-		<div class="row">
-			<div class="service">
-				<div class="col-md-6 col-md-offset-3">
-					<div class="text-center">
-						<h2>Pricing</h2>
-					</div>
-					<hr>
-				</div>
-			</div>
-		</div>
-	</div>
+    <body>
+        <!--page title-->
+        <div class="dzsparallaxer auto-init height-is-based-on-content "  data-options='{   direction: "reverse"}'>
+            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 130%; background-image: url(static/img/hands.jpeg)">
+            </div>
 
-	<div class="services">
-		<div class="container">
-			<div class="row" style="width: 100%">
+            <div class="container pt100 pb70">
+                <div class="row pb50">
+                    <div class="col-md-8 ml-auto mr-auto wow bounceIn" data-wow-delay=".2s">
+                        <h3 class="h1 text-center font300  pt100 text-white">Pricing</h3>
+                    </div>
+                </div>
+            </div>
+        </div><!--parallax-->
+        <!--/.page-title-->
 
-				<div class="col-md-3">
-					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
-						<h4>Intake</h4>
-							<div class="icon">
-								<i class="fa fa-clipboard fa-3x"></i>
-							</div>
-						<p>$300 (one session)</p>
-					</div>
-				</div>
-
-				<div class="col-md-3">
-					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
-						<h4>Individual Counseling</h4>
-						<div class="icon">
-							<i class="fa fa-user fa-3x"></i>
-						</div>
-						<p>$150/session</p>
-					</div>
-				</div>
-
-				<div class="col-md-3">
-					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
-						<h4>Couples Counseling</h4>
-						<div class="icon">
-							<i class="fa fa-users fa-3x"></i>
-						</div>
-						<p>$200/session</p>
-					</div>
+        <div class="container pt90 pb50">
+            <div class="row mb50">
+                <div class="col-md-8 mr-auto ml-auto text-center">
+                    <p class="lead">
+                        Simple, up-front pricing. No gimmicks; no surprises.
+                    </p>
+                </div>
+            </div><!--row-->
+            <div class='row'>
+                <div class='col-md-3 mb40'>
+                <div class='pricing-card-modern pricing-primary'>
+                    <h5>Intake</h5>
+                    <br>
+                    <div class='price-tag'><sup>$</sup>300.00<sub>/session</sub></div>
+                    <ul class='list-unstyled'>
+                        <li>Initial assessment <br>of services</li>
+                    </ul>
+                    <a href='https://calendly.com/martha-alvarez4' class='btn btn-lg btn-primary'>Book Now</a>
+                </div>
+            </div>
+            <div class='col-md-3 mb40'>
+                <div class='pricing-card-modern pricing-success'>
+                    <h5>Individual Counseling</h5>
+                    <br>
+                    <div class='price-tag'><sup>$</sup>150.00<sub>/session</sub></div>
+                    <ul class='list-unstyled'>
+                        <li>Cognitive Behavioral Therapy<br>for individuals</li>
+                    </ul>
+                    <a href='https://calendly.com/martha-alvarez4' class='btn btn-lg btn-primary'>Book Now</a>
+                </div>
+            </div>
+            <div class='col-md-3 mb40'>
+                <div class='pricing-card-modern pricing-primary'>
+                    <h5>Couples Counseling</h5>
+                    <br>
+                    <div class='price-tag'><sup>$</sup>200.00<sub>/session</sub></div>
+                    <ul class='list-unstyled'>
+                        <li>Counseling for<br>couples</li>
+                    </ul>
+                    <a href='https://calendly.com/martha-alvarez4' class='btn btn-lg btn-primary'>Book Now</a>
+                </div>
+            </div>
+                <div class='col-md-3 mb40'>
+                <div class='pricing-card-modern pricing-success'>
+                    <h5>DWI Screening &amp; Assessment</h5>
+                    <div class='price-tag'><sup>$</sup>400.00</div>
+                    <ul class='list-unstyled'>
+                        <li>Screening and Assessment<br>Price includes labwork</li>
+                    </ul>
+                    <a href='https://calendly.com/martha-alvarez4' class='btn btn-lg btn-primary'>Book Now</a>
+                </div>
+            </div>
         </div>
-
-				<div class="col-md-3">
-					<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="2.2s">
-						<h4>DWI Screening & Assessment</h4>
-						<div class="icon">
-							<i class="fa fa-gavel fa-3x"></i>
-						</div>
-					 <p>*Includes Lab Work<br>$400</p>
-					</div>
-				</div>
-
-      </div>
-    </div>
-  </div>
-<!-- End of pricing -->
-
-<!-- Start of payment forms -->
-  <div class="container">
-		<div class="row">
-			<div class="service">
-				<div class="col-md-6 col-md-offset-3">
-					<div class="text-center">
-						<h2>Payment Forms Accepted</h2>
-					</div>
-					<hr>
-				</div>
-			</div>
-		</div>
-	</div>
-
-  <div class="services">
-		<div class="container">
-			<div class="row">
-          <div class="col-md-2">
-            <div>
-              <h4>Cash</h4>
-              <div class="icon">
-                <i class="fa fa-money fa-3x"></i>
-              </div>
+        <div class='container pt50 pb50' id='faqs'>
+            <div class='center-title text-center mb70'>
+                <h4>Accepted Insurance and Payment Forms</h4>
             </div>
-          </div>
-
-          <div class="col-md-2">
-            <div>
-              <h4>Check</h4>
-              <div class="icon">
-                <i class="fa fa-usd fa-3x"></i>
-              </div>
+            <div class='row'>
+                <div class='col-md-4 mb40'>
+                    <h5 class='h6 font400 mb10' style="text-align: center;">Cash</h5>
+                </div>
+                 <div class='col-md-4 mb40'>
+                    <h5 class='h6 font400 mb10' style="text-align: center;">Check</h5>
+                </div>
+                 <div class='col-md-4 mb40'>
+                    <h5 class='h6 font400 mb10' style="text-align: center;">Credit Card</h5>
+                     <p class='text-center lead'>
+                         American Express<br>Discover<br>MasterCard<br>Visa
+                     </p>
+                </div>
+                 <div class='col-md-4 mb40'>
+                    <h5 class='h6 font400 mb10' style="text-align: center;">Blue Cross Blue Shield</h5>
+                </div>
+                 <div class='col-md-4 mb40'>
+                    <h5 class='h6 font400 mb10' style="text-align: center;">Magnacare</h5>
+                </div>
+                 <div class='col-md-4 mb40'>
+                    <h5 class='h6 font400 mb10' style="text-align: center;">Tricare</h5>
+                </div>
             </div>
-          </div>
-
-          <div class="col-md-2">
-            <div>
-              <h4>Credit Card</h4>
-              <div class="icon">
-                <i class="fa fa-credit-card fa-3x"></i>
-              </div>
-              <p>American Express<br>Discover<br>MasterCard<br>Visa</p>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div>
-              <h4>Blue Cross</h4>
-              <div class="icon">
-                <i class="fa fa-user-md fa-3x"></i>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div>
-              <h4>Magnacare</h4>
-              <div class="icon">
-                <i class="fa fa-user-md fa-3x"></i>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div>
-              <h4>Tricare</h4>
-              <div class="icon">
-                <i class="fa fa-user-md fa-3x"></i>
-              </div>
-            </div>
-          </div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-<!-- End of payment forms -->
-
-	<footer>
-		<div class="inner-footer">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-md-4 f-about">
-					</div>
-
-					<div class="col-md-4 l-posts">
-					</div>
-
-					<div class="col-md-4 f-contact">
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</footer>
-
-</body>
+            <p class='text-center lead'>If you can not find your question, feel free to
+                <a href='{{ url_for('contact') }}'>Contact us</a>
+            </p>
+        </div>
 
 {% endblock %}

@@ -4,9 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Behavioral Health Integrative Services</title>
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Versa - Multipurpose</title>
 
+        <!-- Bootstrap -->
         <link href="static/versa_html/css/plugins/plugins.css" rel="stylesheet">
+        <link href="static/versa_html/plugins/masterslider/style/masterslider.css" rel="stylesheet">
         <!--dz parallaxer-->
         <link href="static/versa_html/plugins/dzsparallaxer/dzsparallaxer.css" rel="stylesheet">
         <link href="static/versa_html/plugins/dzsparallaxer/scroller.css" rel="stylesheet">
@@ -18,79 +21,103 @@
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-          <script src="static/versa_html/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="static/versa_html/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light navbar-transparent navbar-sticky">
-            <a class="navbar-brand" href="static/versa_html/index.html">
-                <img src="static/versa_html/images/logo-light.png" alt="" class="logo-visible-desktop logo-default">
-                <img src="static/versa_html/images/logo.png" alt="" class="logo-hidden-desktop logo-scroll">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+            <div>
+                <a class="nav-link" href="{{ url_for('homepage') }}">
+                    Behavioral<br>Health<br>Integrative<br>Services
+                </a>
+            </div>
+{#            <div style>#}
+{#                <a class="nav-link" href="{{ url_for('homepage') }}">#}
+{#                    <img src="/static/img/bh_logo_shadow_head_only.jpg" alt="" width="200">#}
+{#                </a>#}
+{#            </div>#}
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                 <ul class="navbar-nav  ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" href="{{ url_for('aboutus') }}">About Us</a>
+                <ul class="navbar-nav  ml-auto navbar-right-col">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('aboutus') }}">About Us</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" href="https://www.digitalintakes.com/login_after_receiving_forms?id=42631">Forms</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('pricing') }}">Pricing</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="static/versa_html/#">Pricing</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('questions') }}">Questions</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" href="https://doxy.me/Martha1">Sign into my Video Office</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.digitalintakes.com/practices/561/patients/1/public_url?active_loc=all&packet_id=372">Forms</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" href="https://calendly.com/martha-alvarez4">Book Now</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://doxy.me/Martha1">Sign into my Video Office</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="static/versa_html/#">Questions</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="static/versa_html/#">Contact</a>
+                    <li class="nav-item">
+                        <a target="_blank" href="https://calendly.com/martha-alvarez4" class="btn btn-primary btn-lg">Book Now</a>
                     </li>
                 </ul>
             </div>
         </nav><!--/footer-->
+
         {% block content %}
         {% endblock %}
 
         <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-6">
-                        <h4>Office 1</h4>
+                    <div class="col-md-6 col-lg-3">
+                        <h4>Call</h4>
                         <p>
-                            370 East 160th, Floor 2
-                            Bronx, NY 10451
+                            +1 (347) 577-9619
                         </p>
                     </div><!--/.column-->
-                    <div class="col-md-6 col-lg-6">
-                        <h4>Office 2</h4>
+                    <div class="col-md-6 col-lg-3">
+                        <h4>Visit &mdash;Office 1</h4>
                         <p>
-                            3265 Johnson Ave, Suite 105
-                            Bronx, NY 10463
+                            <a href="https://www.google.com/maps/place/370+E+160th+St,+The+Bronx,+NY+10451/@40.8237215,-73.9174601,17z/data=!4m5!3m4!1s0x89c2f5cad84a2003:0xe77d2c9c490a6c4b!8m2!3d40.8237215!4d-73.9152714>">370 East 160th st, Floor 2<br>
+                                Bronx, NY 10451</a>
+                        </p>
+
+                    </div><!--/.column-->
+                    <div class="col-md-6 col-lg-3">
+                        <h4>Visit &mdash;Office 2</h4>
+                        <p>
+                            <a href="https://www.google.com/maps/place/3265+Johnson+Ave,+The+Bronx,+NY+10463/@40.8854725,-73.9125916,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f3bf085e9f8d:0x89e96f340c778d38!8m2!3d40.8854685!4d-73.9104029">3265 Johnson Ave, Suite 105<br>
+                                Bronx, NY 10463</a>
                         </p>
                     </div><!--/.column-->
-                        <span class="font400">&copy; Copyright MakeThis.com 2019</span>
+                    <div class="col-md-6 col-lg-3">
+                        <h4>Email</h4>
+                            <p>
+                                <a href="mailto:webmaster@example.com">Martha@behavioralhealthis.org</a>
+                            </p>
+                    </div>
+                    <div class="col-lg-12">
+                        <p style="text-align: center;">
+                            &copy; Copyright 2019 Behavioral Health Integrative Services
+                        </p>
+                    </div>
                     </div><!--/.column-->
                 </div><!--/.row-->
             </div><!--/.container-->
         </footer><!--/.footer-->
-
         <script src="static/versa_html/js/bundle/bundle.js" type="text/javascript"></script>
         <script src="static/versa_html/js/versa.custom.js"></script>
+        <!-- Master Slider -->
+        <script src="static/versa_html/plugins/masterslider/masterslider.min.js"></script>
         <!--dz parallaxer-->
         <script type="text/javascript" src="static/versa_html/plugins/dzsparallaxer/dzsparallaxer.js"></script>
         <script type="text/javascript" src="static/versa_html/plugins/dzsparallaxer/scroller.js"></script>
         <script type="text/javascript" src="static/versa_html/plugins/dzsparallaxer/advancedscroller/plugin.js"></script>
+        <script src="static/versa_html/js/master-slider-home.js"></script>
         <!-- load cubeportfolio -->
         <script type="text/javascript" src="static/versa_html/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
         <!-- init cubeportfolio -->

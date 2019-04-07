@@ -1,12 +1,6 @@
 {% extends "layout.html" %}
-{% block nav %}
-<li role="presentation"><a href="{{ url_for('aboutus') }}">About Us</a></li>
-<li role="presentation"><a href="{{ url_for('questions') }}">Questions</a></li>
-<li role="presentation"><a href="{{ url_for('forms') }}">Forms</a></li>
-<li role="presentation"><a href="{{ url_for('pricing') }}">Pricing</a></li>
-<li role="presentation" class="active"><a href="{{ url_for('contact') }}">Contact</a></li>
-{% endblock %}
 {% block content %}
+
 <div class="container">
 		<div class="slider">
 			<div class="img-responsive">
@@ -51,18 +45,4 @@
 		</div>
 </section>
 
-  {% endblock %}
-	<footer>
-		<div class="inner-footer">
-			<div class="container">
-				<div class="row">
-            {% block footer %}
-          {% endblock %}
-				</div>
-			</div>
-		</div>
-		</div>
-	</footer>
-
-</body>
-</html>
+{% endblock %}
