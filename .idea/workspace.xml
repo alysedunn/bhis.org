@@ -2,14 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cde83b2-36a1-4100-b9f3-bd5ce60841a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Main/static/img/car copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/car.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/couple copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/couple copy.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/couple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/esmerelda.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/ingrid_nunez.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/martha_dominguez.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/terry_gadson.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/therapist_office copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/static/img/therapist_office.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/img/bh_logo_shadow_head_only.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Main/static/img/bh_logo_shadow_head_only.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/static/versa_html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/dist/jquery.magnific-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/dist/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/dist/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/magnific-popup.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/src/css/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/src/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/src/js/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/src/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/src/js/gallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/src/js/iframe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/src/js/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/src/js/inline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/src/js/retina.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/magnific-popup/src/js/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/mailchimp/MCAPI.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/mailchimp/config.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/mailchimp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/mailchimp/process-subscribe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/dist/jquery.magnific-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/dist/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/dist/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/magnific-popup.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/src/css/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/src/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/src/js/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/src/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/src/js/gallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/src/js/iframe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/src/js/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/src/js/inline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/src/js/retina.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/magnific-popup/src/js/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/mailchimp/MCAPI.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/mailchimp/config.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/mailchimp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/plugins/mailchimp/process-subscribe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Main/static/versa_html/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/dist/jquery.magnific-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/dist/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/dist/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/magnific-popup.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/src/css/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/src/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/src/js/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/src/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/src/js/gallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/src/js/iframe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/src/js/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/src/js/inline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/src/js/retina.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/magnific-popup/src/js/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/mailchimp/MCAPI.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/mailchimp/config.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/mailchimp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/mailchimp/process-subscribe.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/templates/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/templates/pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/templates/questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main/templates/questions.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,19 +110,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/index.html">
+        <entry file="file://$PROJECT_DIR$/Main/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="334" column="6" selection-start-line="212" selection-end-line="334" selection-end-column="6" />
+            <state relative-caret-position="208">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding>
+                <element signature="e#3515#3537#0#HTML" expanded="true" />
+                <element signature="e#4508#4531#0#HTML" expanded="true" />
+                <element signature="e#5907#5930#0#HTML" expanded="true" />
+                <element signature="e#6606#6611#0#HTML" expanded="true" />
+                <element signature="e#7770#7793#0#HTML" expanded="true" />
+                <element signature="e#9185#9190#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/plugins/masterslider/style/masterslider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3660">
-              <caret line="244" column="124" selection-start-line="244" selection-start-column="113" selection-end-line="244" selection-end-column="124" />
+            <state relative-caret-position="255">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -40,12 +138,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="45">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
-                <element signature="e#4005#4012#0#HTML" expanded="true" />
-                <element signature="e#4517#4524#0#HTML" expanded="true" />
+                <element signature="e#4298#4305#0#HTML" expanded="true" />
+                <element signature="e#4810#4817#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#4;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#5257#5263#0#HTML" expanded="true" />
+                <element signature="e#5661#5667#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="2392" column="23" lean-forward="true" selection-start-line="2392" selection-start-column="23" selection-end-line="2392" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/element-modals-alerts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="358" column="55" selection-start-line="358" selection-start-column="55" selection-end-line="358" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/templates/aboutus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="7884" column="18" selection-start-line="7884" selection-start-column="18" selection-end-line="7884" selection-end-column="18" />
+              <folding>
+                <element signature="e#203063#203255#2" expanded="true" />
+                <element signature="e#203481#203622#2" expanded="true" />
+                <element signature="e#204169#204307#2" expanded="true" />
+                <element signature="e#204654#204812#1" expanded="true" />
+                <element signature="e#217660#217903#2" expanded="true" />
+                <element signature="e#218770#219019#2" expanded="true" />
+                <element signature="e#245782#245964#2" expanded="true" />
+                <element signature="e#246010#246192#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +200,7 @@
         <entry file="file://$PROJECT_DIR$/Main/templates/pricing.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="734">
-              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="104" selection-end-column="14" />
+              <caret line="103" selection-start-line="103" selection-end-line="104" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#2875#2880#0#HTML" expanded="true" />
@@ -70,29 +215,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/templates/questions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/templates/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/contact-default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="180" column="55" selection-end-line="358" />
+            <state relative-caret-position="285">
+              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -101,37 +228,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>read more</find>
-      <find>Individual c</find>
-      <find>Imagination</find>
-      <find>individual c</find>
-      <find>elegant template</find>
-      <find>imagination</find>
-      <find>couples co</find>
-      <find>couples counsel</find>
-      <find>footer</find>
-      <find>cart</find>
-      <find>book now</find>
-      <find>search</find>
-      <find>plugins/dzsparallaxer/scroller.js</find>
-      <find>plugins/masterslider/style/masterslider.css</find>
-      <find>navbar-right-col</find>
-      <find>copt</find>
-      <find>copyright</find>
-      <find>individual counseling</find>
-      <find>logo</find>
-      <find>img</find>
-      <find>Family Coun</find>
-      <find>digital in</find>
-      <find>Simple pricing</find>
-      <find>end</find>
-      <find>contact-form/php/captcha</find>
-      <find>/images</find>
-      <find>bg-</find>
-      <find>capt</find>
       <find>src</find>
       <find>Purchase versa</find>
+      <find>masterslider.min.js</find>
+      <find>behavior</find>
+      <find>behavioral health in</find>
+      <find>behavioral</find>
+      <find>0a8f97</find>
+      <find>0083ff</find>
+      <find>nav</find>
+      <find>a</find>
+      <find>.a</find>
+      <find>href</find>
+      <find>370 East 160th st, Floor 2</find>
+      <find>nav-link</find>
+      <find>4dd1d9</find>
+      <find>gpootman me</find>
+      <find>007bff</find>
+      <find>martha was</find>
+      <find>martha domin</find>
+      <find>img/</find>
+      <find>book now</find>
+      <find>We support</find>
+      <find>justify</find>
+      <find>indiv</find>
+      <find>syrin</find>
+      <find>capsule</find>
+      <find>Book No</find>
+      <find>mountain</find>
+      <find>magni</find>
+      <find>Your message has been sent. Thank you</find>
     </findStrings>
+    <replaceStrings>
+      <replace>0db4be</replace>
+      <replace>0a8f97</replace>
+      <replace>4dd1d9</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,16 +275,18 @@
         <option value="$PROJECT_DIR$/Main/templates/aboutus.html" />
         <option value="$PROJECT_DIR$/Main/application.py" />
         <option value="$PROJECT_DIR$/Main/static/versa_html/index.html" />
-        <option value="$PROJECT_DIR$/Main/templates/index.html" />
-        <option value="$PROJECT_DIR$/Main/templates/layout.html" />
         <option value="$PROJECT_DIR$/Main/templates/pricing.html" />
         <option value="$PROJECT_DIR$/Main/templates/questions.html" />
+        <option value="$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css" />
+        <option value="$PROJECT_DIR$/Main/templates/index.html" />
+        <option value="$PROJECT_DIR$/Main/templates/layout.html" />
+        <option value="$PROJECT_DIR$/Main/static/versa_html/css/style.css" />
         <option value="$PROJECT_DIR$/Main/templates/contact.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1496" />
+    <option name="x" value="1479" />
     <option name="y" value="23" />
     <option name="width" value="1864" />
     <option name="height" value="1051" />
@@ -186,7 +320,7 @@
               <item name="bhis.org" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bhis.org" type="b2602c69:ProjectViewProjectNode" />
@@ -205,6 +339,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Main/static/img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -235,13 +374,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29493000" />
+    <option name="totallyTimeSpent" value="36141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1496" y="23" width="1864" height="1051" extended-state="0" />
+    <frame x="1479" y="23" width="1864" height="1051" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11470911" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24698134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -342,7 +481,11 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/application.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -385,36 +528,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3660">
-          <caret line="244" column="124" selection-start-line="244" selection-start-column="113" selection-end-line="244" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/templates/aboutus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="47" lean-forward="true" selection-end-line="73" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/templates/questions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#4005#4012#0#HTML" expanded="true" />
-            <element signature="e#4517#4524#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#4;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5257#5263#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="464">
+          <caret line="34" column="283" selection-start-line="34" selection-start-column="283" selection-end-line="34" selection-end-column="283" />
         </state>
       </provider>
     </entry>
@@ -428,7 +545,7 @@
     <entry file="file://$PROJECT_DIR$/Main/templates/pricing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="734">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="104" selection-end-column="14" />
+          <caret line="103" selection-start-line="103" selection-end-line="104" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#2875#2880#0#HTML" expanded="true" />
@@ -442,10 +559,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="7884" column="18" selection-start-line="7884" selection-start-column="18" selection-end-line="7884" selection-end-column="18" />
+          <folding>
+            <element signature="e#203063#203255#2" expanded="true" />
+            <element signature="e#203481#203622#2" expanded="true" />
+            <element signature="e#204169#204307#2" expanded="true" />
+            <element signature="e#204654#204812#1" expanded="true" />
+            <element signature="e#217660#217903#2" expanded="true" />
+            <element signature="e#218770#219019#2" expanded="true" />
+            <element signature="e#245782#245964#2" expanded="true" />
+            <element signature="e#246010#246192#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/img/ingrid_nunez.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/img/martha_dominguez.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/img/terry_gadson.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/img/esmerelda.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/plugins/masterslider/style/masterslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/aboutus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/contact-form/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/img/couple copy.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="e#3515#3537#0#HTML" expanded="true" />
+            <element signature="e#4508#4531#0#HTML" expanded="true" />
+            <element signature="e#5907#5930#0#HTML" expanded="true" />
+            <element signature="e#6606#6611#0#HTML" expanded="true" />
+            <element signature="e#7770#7793#0#HTML" expanded="true" />
+            <element signature="e#9185#9190#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#4298#4305#0#HTML" expanded="true" />
+            <element signature="e#4810#4817#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#4;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5661#5667#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="2392" column="23" lean-forward="true" selection-start-line="2392" selection-start-column="23" selection-end-line="2392" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/element-modals-alerts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="358" column="55" selection-start-line="358" selection-start-column="55" selection-end-line="358" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
+        <state relative-caret-position="285">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
         </state>
       </provider>
     </entry>
