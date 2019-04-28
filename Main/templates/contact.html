@@ -1,47 +1,97 @@
 {% extends "layout.html" %}
 {% block content %}
+    <head>
+        <link type="text/css" rel="stylesheet"  href="static/versa_html/contact-form/css/smart-forms.css">
+        <link href="static/versa_html/css/style.css" rel="stylesheet">
+    </head>
+        <!--page title-->
+        <div class="dzsparallaxer auto-init height-is-based-on-content "  data-options='{   direction: "reverse"}'>
+            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 130%; background-image: url(static/img/hands.jpeg)">
+            </div>
 
-<div class="container">
-		<div class="slider">
-			<div class="img-responsive">
-				<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				</div>
-			</div>
-		</div>
-</div>
+            <div class="container pt100 pb70">
+                <div class="row pb50">
+                    <div class="col-md-8 ml-auto mr-auto wow bounceIn" data-wow-delay=".2s">
+                        <h3 class="h1 text-center font300  pt100 text-white">Contact Us</h3>
+                    </div>
+                </div>
+            </div>
+        </div><!--parallax-->
+        <!--/.page-title-->
 
-<section id="contact-page">
-		<div class="container">
-				<div class="center">
-						<h2>Contact Us</h2>
-						<p>All inquiries sent via the form below will receive a response within 5 business days.</p>
-				</div>
-				<div class="row contact-wrap">
-						<div class="col-md-8 col-md-offset-2">
-								<div id="errormessage"></div>
-								<form action="{{url_for('contact')}}" method="post" role="form" class="contactForm">
-										<div class="form-group">
-												<input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-												<div class="validation"></div>
-										</div>
-										<div class="form-group">
-												<input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
-												<div class="validation"></div>
-										</div>
-										<div class="form-group">
-												<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-												<div class="validation"></div>
-										</div>
-										<div class="form-group">
-												<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-												<div class="validation"></div>
-										</div>
+        <div class="container pt90 pb50">
+            <div class="row">
+                <div class="col-md-6 mb40">
 
-										<div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
-								</form>
-						</div>
-				</div>
-		</div>
-</section>
+                    <h4 class="text-capitalize h6 font600">Office 1</h4>
+                        <p>
+                            <a href="https://www.google.com/maps/place/370+E+160th+St,+The+Bronx,+NY+10451/@40.8237215,-73.9174601,17z/data=!4m5!3m4!1s0x89c2f5cad84a2003:0xe77d2c9c490a6c4b!8m2!3d40.8237215!4d-73.9152714>">370 East 160th st, Floor 2<br>
+                                Bronx, NY 10451</a>
+                        </p>
+                    <br>
+                    <h4 class="text-capitalize h6 font600">Office 2</h4>
+                       <p>
+                            <a href="https://www.google.com/maps/place/3265+Johnson+Ave,+The+Bronx,+NY+10463/@40.8854725,-73.9125916,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f3bf085e9f8d:0x89e96f340c778d38!8m2!3d40.8854685!4d-73.9104029">3265 Johnson Ave, Suite 105<br>
+                                Bronx, NY 10463</a>
+                        </p>
+                    <h4 class="text-capitalize h6 font600">Phone</h4>
+                        <p class="btn btn-underline">
+                            +1 (347) 577-9619
+                        </p>
+                    <br>
+                    <h4 class="text-capitalize h6 font600">Fax</h4>
+                       <p class="btn btn-underline">
+                           +1 (914) 302-4067
+                        </p>
+                </div>
+                <div class="col-md-6">
+                   <div class="smart-wrap">
+            <div class="smart-forms smart-container">
 
+
+                <form method="post" action="contact-form/php/smartprocess.php" id="smart-form">
+                    <div class="form-body">
+
+                        <div class="section">
+                            <label class="field prepend-icon">
+                                <input type="text" name="sendername" id="sendername" class="gui-input" placeholder="Enter name">
+                                <span class="field-icon"><i class="fa fa-user"></i></span>
+                            </label>
+                        </div><!-- end section -->
+
+                        <div class="section">
+                            <label class="field prepend-icon">
+                                <input type="email" name="emailaddress" id="emailaddress" class="gui-input" placeholder="Email address">
+                                <span class="field-icon"><i class="fa fa-envelope"></i></span>
+                            </label>
+                        </div><!-- end section -->
+
+                        <div class="section">
+                            <label class="field prepend-icon">
+                                <input type="text" name="sendersubject" id="sendersubject" class="gui-input" placeholder="Enter subjec">
+                                <span class="field-icon"><i class="fa fa-lightbulb-o"></i></span>
+                            </label>
+                        </div><!-- end section -->
+
+                        <div class="section">
+                            <label class="field prepend-icon">
+                                <textarea class="gui-textarea" id="sendermessage" name="sendermessage" placeholder="Enter message"></textarea>
+                                <span class="field-icon"><i class="fa fa-comments"></i></span>
+                                <span class="input-hint">Please enter between 80 - 300 characters.</span>
+                            </label>
+                        </div><!-- end section -->
+
+                       <div class="result"></div><!-- end .result  section -->
+
+                    </div><!-- end .form-body section -->
+                    <div class="form-footer">
+                        <button type="submit" data-btntext-sending="Sending..." class="button btn btn-primary">Submit</button>
+                        <button type="reset" class="button"> Reset </button>
+                    </div><!-- end .form-footer section -->
+                </form>
+            </div><!-- end .smart-forms section -->
+        </div><!-- end .smart-wrap section -->
+                </div>
+            </div>
+        </div>
 {% endblock %}

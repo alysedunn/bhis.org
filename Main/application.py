@@ -1,9 +1,7 @@
-import os
-
-from flask import Flask, render_template, request
-# from flask_mail import Mail, Message
+from flask import Flask, render_template
 
 application = Flask(__name__)
+
 
 @application.route('/')
 def homepage():
@@ -30,9 +28,9 @@ def pricing():
     return render_template('pricing.html')
 
 
-@application.route('/contact', methods=['GET', 'POST'])
-def contact():
-    return render_template('contact.html')
+# @application.route('/contact', methods=['GET', 'POST'])
+# def contact():
+#     return render_template('contact.html')
 
 
 if __name__ == "__main__":
