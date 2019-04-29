@@ -28,9 +28,9 @@ def pricing():
     return render_template('pricing.html')
 
 
-# @application.route('/contact', methods=['GET', 'POST'])
-# def contact():
-#     return render_template('contact.html')
+@application.route('/contact', methods=['GET', 'POST'])
+def contact():
+    return render_template('contact.html')
 
 
 if __name__ == "__main__":
