@@ -39,7 +39,7 @@ six==1.10.0
 tabulate==0.7.7
 termcolor==1.1.0
 upgrade-requirements==1.4.0
-urllib3==1.22
+urllib3==1.24.2
 wcwidth==0.1.7
 websocket-client==0.44.0
 Werkzeug==0.12.2
