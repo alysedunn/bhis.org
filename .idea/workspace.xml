@@ -2,635 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cde83b2-36a1-4100-b9f3-bd5ce60841a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/img/bx_loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/img/controls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/isotope.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/jquery.bxslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/overwrite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/set1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/set2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/cubeportfolio/css/cubeportfolio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/cubeportfolio/css/cubeportfolio.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/cubeportfolio/img/cbp-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/cubeportfolio/img/cbp-sprite.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/cubeportfolio/js/jquery.cubeportfolio.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/cubeportfolio/js/jquery.cubeportfolio.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/data-tables/dataTables.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/data-tables/dataTables.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/data-tables/dataTables.fixedHeader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/data-tables/dataTables.responsive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/data-tables/fixedHeader.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/data-tables/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/data-tables/responsive.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/data-tables/responsive.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/dzsparallaxer/advancedscroller/plugin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/dzsparallaxer/advancedscroller/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/dzsparallaxer/dzsparallaxer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/dzsparallaxer/dzsparallaxer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/dzsparallaxer/scroller.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/dzsparallaxer/scroller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/et-line-font/et-line.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/et-line-font/fonts/et-line.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/et-line-font/fonts/et-line.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/et-line-font/fonts/et-line.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/et-line-font/fonts/et-line.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/feathericons/feathericons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/feathericons/feathericons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/feathericons/feathericons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/feathericons/feathericons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/hover/css/hover-min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/hover/css/hover.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jarallax/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jarallax/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jarallax/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jarallax/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jarallax/dist/jarallax-video.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jarallax/dist/jarallax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jarallax/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jarallax/jarallax/jarallax-video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jarallax/jarallax/jarallax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jarallax/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/dist/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/dist/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/dist/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/dist/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/ajax/jsonp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/ajax/load.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/ajax/parseXML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/ajax/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/ajax/var/location.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/ajax/var/nonce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/ajax/var/rquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/ajax/xhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/attributes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/attributes/attr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/attributes/classes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/attributes/prop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/attributes/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/attributes/val.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/callbacks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/DOMEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/access.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/nodeName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/parseHTML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/ready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/readyException.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/addGetHookIf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/adjustCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/curCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/showHide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/var/cssExpand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/var/getStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/var/rmargin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/css/var/swap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/data/Data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/data/var/acceptData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/data/var/dataPriv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/data/var/dataUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/deprecated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/dimensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/effects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/effects/Tween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/effects/animatedSelector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/event/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/event/alias.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/event/focusin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/event/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/event/trigger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/exports/amd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/exports/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/manipulation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/manipulation/getAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/manipulation/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/offset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/queue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/queue/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/selector-native.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/selector-sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/selector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/traversing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/traversing/findFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/traversing/var/dir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/traversing/var/siblings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/arr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/class2type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/documentElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/fnToString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/getProto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/hasOwn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/indexOf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/pnum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/push.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/rcssNum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/var/toString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/jquery/src/wrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/js/fliplightbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/js/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/js/jquery-2.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/js/jquery.bxslider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/js/jquery.easing.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/js/jquery.isotope.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masonry/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masonry/README.mdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masonry/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masonry/changelog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masonry/dist/masonry.pkgd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masonry/dist/masonry.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masonry/masonry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/mouse-scroll-b-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/mouse-scroll-w-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/mscrtvi-background-slide-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/mscrtvi-background-slide-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/mscrtvi-background-slide-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/mscrtvi-background-slide-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/mscrtvi-book-slide-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/mscrtvi-cupinhand-slide-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/mscrtvi-handonkeyboard-slide-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/images/mscrtvi-watch-slide-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/masterslider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/masterslider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/masterslider.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/black-1/black-skin-1-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/black-1/black-skin-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/black-1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/black-2/black-skin-2-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/black-2/black-skin-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/black-2/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/contrast/contrast-skin-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/contrast/contrast-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/contrast/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/default/light-skin-1-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/default/light-skin-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/default/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-2/light-skin-2-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-2/light-skin-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-2/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-3/light-skin-3-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-3/light-skin-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-3/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-4/light-skin-4-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-4/light-skin-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-4/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-5/light-skin-5-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-5/light-skin-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-5/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-6/light-skin-6-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-6/light-skin-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/light-6/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/metro/metro-skin-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/metro/metro-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/metro/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/minimal/light-skin-1-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/minimal/light-skin-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/minimal/minimal.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/skins/minimal/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/grab.cur" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/grab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/grabbing.cur" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/grabbing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/loading-1-dark.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/loading-1-light.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/loading-2-dark.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/loading-2-light.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/masterslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/masterslider/style/video-close-btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/assets/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/assets/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/assets/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/assets/owl.theme.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/assets/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/assets/owl.theme.green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/assets/owl.theme.green.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/assets/owl.video.play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/owl-carousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/cubeportfolio/css/cubeportfolio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/cubeportfolio/css/cubeportfolio.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/cubeportfolio/img/cbp-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/cubeportfolio/img/cbp-sprite.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/cubeportfolio/js/jquery.cubeportfolio.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/data-tables/dataTables.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/data-tables/dataTables.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/data-tables/dataTables.fixedHeader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/data-tables/dataTables.responsive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/data-tables/fixedHeader.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/data-tables/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/data-tables/responsive.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/data-tables/responsive.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/dzsparallaxer/advancedscroller/plugin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/dzsparallaxer/advancedscroller/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/dzsparallaxer/dzsparallaxer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/dzsparallaxer/dzsparallaxer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/dzsparallaxer/scroller.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/dzsparallaxer/scroller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/et-line-font/et-line.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/et-line-font/fonts/et-line.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/et-line-font/fonts/et-line.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/et-line-font/fonts/et-line.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/et-line-font/fonts/et-line.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/hover/css/hover-min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/hover/css/hover.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jarallax/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jarallax/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jarallax/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jarallax/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jarallax/dist/jarallax-video.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jarallax/dist/jarallax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jarallax/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jarallax/jarallax/jarallax-video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jarallax/jarallax/jarallax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jarallax/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/dist/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/dist/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/dist/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/dist/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/ajax/jsonp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/ajax/load.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/ajax/parseXML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/ajax/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/ajax/var/location.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/ajax/var/nonce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/ajax/var/rquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/ajax/xhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/attributes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/attributes/attr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/attributes/classes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/attributes/prop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/attributes/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/attributes/val.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/callbacks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/DOMEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/access.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/nodeName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/parseHTML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/ready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/readyException.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/addGetHookIf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/adjustCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/curCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/showHide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/var/cssExpand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/var/getStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/var/rmargin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/css/var/swap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/data/Data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/data/var/acceptData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/data/var/dataPriv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/data/var/dataUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/deprecated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/dimensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/effects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/effects/Tween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/effects/animatedSelector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/event/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/event/alias.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/event/focusin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/event/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/event/trigger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/exports/amd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/exports/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/manipulation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/manipulation/getAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/manipulation/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/offset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/queue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/queue/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/selector-native.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/selector-sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/selector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/traversing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/traversing/findFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/traversing/var/dir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/traversing/var/siblings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/arr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/class2type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/documentElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/fnToString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/getProto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/hasOwn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/indexOf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/pnum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/push.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/rcssNum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/var/toString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/jquery/src/wrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masonry/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masonry/README.mdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masonry/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masonry/changelog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masonry/dist/masonry.pkgd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masonry/dist/masonry.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masonry/masonry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/mouse-scroll-b-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/mouse-scroll-w-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/mscrtvi-background-slide-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/mscrtvi-background-slide-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/mscrtvi-background-slide-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/mscrtvi-background-slide-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/mscrtvi-book-slide-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/mscrtvi-cupinhand-slide-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/mscrtvi-handonkeyboard-slide-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/images/mscrtvi-watch-slide-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/masterslider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/masterslider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/masterslider.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/black-1/black-skin-1-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/black-1/black-skin-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/black-1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/black-2/black-skin-2-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/black-2/black-skin-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/black-2/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/contrast/contrast-skin-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/contrast/contrast-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/contrast/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/default/light-skin-1-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/default/light-skin-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/default/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-2/light-skin-2-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-2/light-skin-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-2/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-3/light-skin-3-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-3/light-skin-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-3/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-4/light-skin-4-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-4/light-skin-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-4/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-5/light-skin-5-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-5/light-skin-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-5/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-6/light-skin-6-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-6/light-skin-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/light-6/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/metro/metro-skin-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/metro/metro-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/metro/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/minimal/light-skin-1-retina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/minimal/light-skin-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/minimal/minimal.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/skins/minimal/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/grab.cur" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/grab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/grabbing.cur" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/grabbing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/loading-1-dark.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/loading-1-light.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/loading-2-dark.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/loading-2-light.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/masterslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/masterslider/style/video-close-btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/assets/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/assets/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/assets/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/assets/owl.theme.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/assets/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/assets/owl.theme.green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/assets/owl.theme.green.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/assets/owl.video.play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/owl-carousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/fonts/fontawesome/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/fonts/fontawesome/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/fonts/fontawesome/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/fonts/fontawesome/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/fonts/fontawesome/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/fonts/fontawesome/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/images/dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/images/foobg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/images/wood.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/check.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/css/old-ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/css/tables-custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/dataprocess.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/fonts/fontawesome/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/fonts/fontawesome/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/fonts/fontawesome/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/fonts/fontawesome/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/fonts/fontawesome/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/fonts/fontawesome/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/js/jquery-1.9.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/js/jquery.hammer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/logout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/admin/users.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/captcha/captcha.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/captcha/fonts/zxxnoise.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/captcha/fonts/zxxxed.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/captcha/process.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/functions/emailValidation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/phpmailer/PHPMailerAutoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/phpmailer/class.phpmailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/phpmailer/class.phpmaileroauth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/phpmailer/class.phpmaileroauthgoogle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/phpmailer/class.pop3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/phpmailer/class.smtp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/phpmailer/get_oauth_token.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/settings/settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/smartprocess.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/templates/autoresponder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/php/templates/smartmessage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/js/jquery-1.9.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/js/jquery-ui-custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/js/jquery-ui-touch-punch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/js/jquery.maskedinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/js/jquery.placeholder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-form/js/smartforms-modal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/css/style-restaurant.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/data-table.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/faqs.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/google-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/jquery.backstretch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/masonry-blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/masonry.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/master-slider-saas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/smooth-scroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/typed.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/data-tables/dataTables.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/data-tables/dataTables.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/data-tables/dataTables.fixedHeader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/data-tables/dataTables.responsive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/data-tables/fixedHeader.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/data-tables/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/data-tables/responsive.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/data-tables/responsive.bootstrap4.min.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -698,20 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/style-restaurant.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="383" column="49" selection-start-line="383" selection-start-column="49" selection-end-line="383" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="150">
+              <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
               <folding>
                 <element signature="e#203063#203255#2" expanded="true" />
                 <element signature="e#203481#203622#2" expanded="true" />
@@ -796,7 +207,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-218" />
     <option name="y" value="-1057" />
-    <option name="width" value="1882" />
+    <option name="width" value="602" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -847,6 +258,57 @@
               <item name="contact-form" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bhis.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bhis.org" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="versa_html" type="462c0819:PsiDirectoryNode" />
+              <item name="contact-form" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bhis.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bhis.org" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="versa_html" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bhis.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bhis.org" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="versa_html" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bhis.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bhis.org" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="versa_html" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bhis.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bhis.org" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="versa_html" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bhis.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bhis.org" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="versa_html" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -889,18 +351,17 @@
       <workItem from="1552746334151" duration="10619000" />
       <workItem from="1553979152709" duration="6635000" />
       <workItem from="1554565415157" duration="7969000" />
-      <workItem from="1585522678073" duration="5550000" />
+      <workItem from="1585522678073" duration="6173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52443000" />
+    <option name="totallyTimeSpent" value="53066000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-218" y="-1057" width="1882" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="-218" y="-1057" width="602" height="1057" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16099894" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.50332224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1177,8 +638,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="150">
+          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
           <folding>
             <element signature="e#203063#203255#2" expanded="true" />
             <element signature="e#203481#203622#2" expanded="true" />
