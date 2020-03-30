@@ -2568,9 +2568,6 @@ Hero styles
     height: 100%;
     width: 100%; }
 
-.YTPOverlay.raster {
-  background: url(../plugins/ytplayer/raster.png); }
-
 .form-horizontal-newsletter .form-control {
   border: 0px;
   background-color: #fff; }
