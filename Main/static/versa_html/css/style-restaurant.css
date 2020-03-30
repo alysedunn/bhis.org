@@ -583,50 +583,6 @@ Restaurant header
 .navbar-restaurant {
   padding: .5rem 0; }
 
-.pushy {
-  width: 290px;
-  background-color: #fff; }
-  .pushy .pushy-content {
-    padding-top: 40px;
-    position: relative; }
-  .pushy .close-button {
-    font-size: 20px;
-    position: absolute;
-    left: -10px;
-    top: -10px; }
-    .pushy .close-button:hover {
-      color: #333; }
-  .pushy ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    text-align: right; }
-    .pushy ul .pushy-submenu > button, .pushy ul a {
-      font-weight: 400;
-      padding: 10px 20px;
-      color: #333;
-      display: block;
-      text-align: right;
-      cursor: pointer;
-      text-transform: uppercase; }
-      .pushy ul .pushy-submenu > button:hover, .pushy ul .pushy-submenu > button :focus, .pushy ul .pushy-submenu > button :active, .pushy ul a:hover, .pushy ul a :focus, .pushy ul a :active {
-        color: #FECF39;
-        outline: 0 !important; }
-    .pushy ul .btn {
-      display: inline-block;
-      margin: 5px;
-      margin-left: 20px; }
-    .pushy ul ul li.pushy-link a {
-      padding: 5px 30px;
-      text-transform: capitalize;
-      color: #aeaeae;
-      font-weight: 300; }
-
-.pushy-right {
-  -webkit-transform: translate3d(290px, 0, 0);
-  -ms-transform: translate3d(290px, 0, 0);
-  transform: translate3d(290px, 0, 0); }
-
 .navbar-restaurant {
   position: absolute;
   left: 0;

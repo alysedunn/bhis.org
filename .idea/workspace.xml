@@ -2,36 +2,253 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cde83b2-36a1-4100-b9f3-bd5ce60841a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/css/pushy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/img/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/js/pushy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/js/pushy.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/scss/demo.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/plugins/pushy/scss/pushy.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/css/pushy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/img/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/js/pushy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/js/pushy.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/scss/demo.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/static/pushy/scss/pushy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/blog-contained.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/blog-masonry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/blog-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/contact-default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/css/style-restaurant.css" beforeDir="false" afterPath="$PROJECT_DIR$/Main/static/versa_html/css/style-restaurant.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-accordions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-cards-news.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-cta-background.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-cta.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-feature-image-split.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-feature-image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-feature-nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-grids.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-icon-cards-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-icon-cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-modals-alerts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-tables-data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-tabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-testimonials-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-testimonials.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/element-typo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/folio-2col.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/folio-3col.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/folio-4col.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/folio-5col.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/folio-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/folio-masonry-mosaic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/footer-alt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/footer-sticky.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/header-fullscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/header-login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/header-standard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/header-startup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/header-transparent-sticky.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/header-transparent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/app-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-8.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/bg-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/img-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/lgh1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/lgv1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/mosaic-m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/mosaic-m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/mosaic-m3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/box/mosaic-m4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/client-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/client-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/client-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/credit-cards/american-express.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/credit-cards/discover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/credit-cards/maestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/credit-cards/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/credit-cards/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/credit-cards/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/business.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/card1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/landing-page-alt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/landing-page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/more.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/onepage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/resto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/saas-products.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/static-parallax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/text-rotate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/demos/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/feature1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/flat-laptop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/lang/de.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/lang/fr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/lang/ru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/lang/us.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/logo-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/macbook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/paypal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/play-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/poster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/restaurant/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/restaurant/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/restaurant/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/restaurant/img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/restaurant/img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/restaurant/img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/restaurant/img-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/restaurant/menu-thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/restaurant/side1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/saas-screen1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/screen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/screen2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/screen3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/service1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/service2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/service3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/service4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/10.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/9.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/avtar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/payment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/s-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/s-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/s-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/single1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/single2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/single3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/shop/single4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/team-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/team-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/team-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/images/team-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/index-landing-alt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/index-landing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/index-oneage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/index-parallax-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/index-restaurants.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/index-saas-webapp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/index-text-rotate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/intro-v2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-about-company.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-about-me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-coming-soon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-faqs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-service-icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-service-image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/page-team.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/css/pushy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/img/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/js/pushy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/js/pushy.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/scss/demo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/pushy/scss/pushy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/jquery.waypoints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/noframework.waypoints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/noframework.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/shortcuts/infinite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/shortcuts/infinite.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/shortcuts/inview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/shortcuts/inview.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/shortcuts/sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/shortcuts/sticky.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/waypoints.debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/zepto.waypoints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/waypoints/lib/zepto.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/ytplayer/jquery.mb.YTPlayer.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/ytplayer/jquery.mb.YTPlayer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/plugins/ytplayer/raster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_accordions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_blog-post.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_contact-page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_cta.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_feature-card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_header-fullscreen.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_header-restaurant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_icons-card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_intro-page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_master-slider-custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_master-slider-home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_modals-alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_portfolio.custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_pricing-tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_shop-style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_split-section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_testimonials-page2.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_testimonials.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_timeline.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_typed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/style-restaurant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/shop-cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/shop-checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/shop-product-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/static/versa_html/shop-products.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,15 +258,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/application.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,11 +316,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/scss/style.scss">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/style-restaurant.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="496">
+              <caret line="383" column="49" lean-forward="true" selection-start-line="383" selection-start-column="49" selection-end-line="383" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="e#203063#203255#2" expanded="true" />
+                <element signature="e#203481#203622#2" expanded="true" />
+                <element signature="e#204169#204307#2" expanded="true" />
+                <element signature="e#204654#204812#1" expanded="true" />
+                <element signature="e#217660#217903#2" expanded="true" />
+                <element signature="e#218770#219019#2" expanded="true" />
+                <element signature="e#245782#245964#2" expanded="true" />
+                <element signature="e#246010#246192#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,12 +348,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>phone</find>
-      <find>capt</find>
-      <find>Hint</find>
-      <find>Add</find>
-      <find>370</find>
-      <find>120</find>
       <find>url</find>
       <find>Enter a VALID email address</find>
       <find>enter a valid</find>
@@ -146,11 +367,17 @@
       <find>.py</find>
       <find>bo</find>
       <find>versa_html/css/style.css</find>
-      <find>waypoints</find>
       <find>waypoins</find>
       <find>_hero-templates.scss</find>
+      <find>versa_html</find>
+      <find>waypoints</find>
       <find>ytplayer</find>
+      <find>.pushy</find>
+      <find>plugins.css</find>
       <find>pushy</find>
+      <find>pusjh</find>
+      <find>versa_html/sc</find>
+      <find>masonry</find>
     </findStrings>
     <replaceStrings>
       <replace>0db4be</replace>
@@ -170,7 +397,6 @@
         <option value="$PROJECT_DIR$/Main/static/versa_html/index.html" />
         <option value="$PROJECT_DIR$/Main/templates/pricing.html" />
         <option value="$PROJECT_DIR$/Main/templates/questions.html" />
-        <option value="$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css" />
         <option value="$PROJECT_DIR$/Main/static/versa_html/contact-default.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Main/templates/contact.html" />
@@ -180,6 +406,8 @@
         <option value="$PROJECT_DIR$/Main/templates/index.html" />
         <option value="$PROJECT_DIR$/Main/static/versa_html/css/style.css" />
         <option value="$PROJECT_DIR$/Main/static/versa_html/scss/style.scss" />
+        <option value="$PROJECT_DIR$/Main/static/versa_html/css/style-restaurant.css" />
+        <option value="$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css" />
       </list>
     </option>
   </component>
@@ -218,7 +446,7 @@
               <item name="bhis.org" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="versa_html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,16 +490,15 @@
       <workItem from="1552746334151" duration="10619000" />
       <workItem from="1553979152709" duration="6635000" />
       <workItem from="1554565415157" duration="7969000" />
-      <workItem from="1585522678073" duration="4185000" />
+      <workItem from="1585522678073" duration="4755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51078000" />
+    <option name="totallyTimeSpent" value="51648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-218" y="-1057" width="1882" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16099894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -404,23 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="7884" column="18" selection-start-line="7884" selection-start-column="18" selection-end-line="7884" selection-end-column="18" />
-          <folding>
-            <element signature="e#203063#203255#2" expanded="true" />
-            <element signature="e#203481#203622#2" expanded="true" />
-            <element signature="e#204169#204307#2" expanded="true" />
-            <element signature="e#204654#204812#1" expanded="true" />
-            <element signature="e#217660#217903#2" expanded="true" />
-            <element signature="e#218770#219019#2" expanded="true" />
-            <element signature="e#245782#245964#2" expanded="true" />
-            <element signature="e#246010#246192#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/static/img/ingrid_nunez.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -534,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/style-restaurant.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="229" column="9" selection-start-line="229" selection-start-column="9" selection-end-line="229" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/static/versa_html/index-youtube.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -557,8 +760,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/static/versa_html/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="440">
+          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/style-restaurant.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="383" column="49" lean-forward="true" selection-start-line="383" selection-start-column="49" selection-end-line="383" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/index-restaurants.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/static/versa_html/css/plugins/plugins.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#203063#203255#2" expanded="true" />
+            <element signature="e#203481#203622#2" expanded="true" />
+            <element signature="e#204169#204307#2" expanded="true" />
+            <element signature="e#204654#204812#1" expanded="true" />
+            <element signature="e#217660#217903#2" expanded="true" />
+            <element signature="e#218770#219019#2" expanded="true" />
+            <element signature="e#245782#245964#2" expanded="true" />
+            <element signature="e#246010#246192#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
